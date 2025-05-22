@@ -10,17 +10,17 @@ redirect_from:
 I am a first-year master student at Shenzhen International Graduate School, Tsinghua University. I am fortunate to be supervised by Prof. [Yansong Tang](https://andytang15.github.io/) in IVG@SZ group. Before that, I got B.S. in Electric and Electronic Engineering from the University of Electronic and Science Technology of China (UESTC) in 2024.
 
 
-My research interests lie in Computer Vision, such as Video Generation, Video Understanding.
+My research interests lie in Computer Vision, such as Multimodal Learning,Segmentation, Tracking.
 
-[Email](mailto:sy-zhang23@mails.tsinghua.edu.cn) / [Github](https://github.com/shiyi-zh0408)
+[Email](yuji-wan24@mails.tsinghua.edu.cn) / [Google Schoolar](https://scholar.google.com/citations?hl=en&user=oRpCyGkAAAAJ)
 
 ---
 # ✨ News
 ---
-* <span style="font-size: smaller;">2025-04: One paper on Controllable Video Generation is accepted to [Siggraph 2025](https://www.siggraph.org/siggraph-events/conferences/)</span>
-* <span style="font-size: smaller;">2024-07: One paper on Embodied Vision is accepted to [ECCV 2024](https://eccv.ecva.net/)</span>
-* <span style="font-size: smaller;">2024-03: One paper on video understanding (Narrative Action Evaluation) is accepted to [CVPR 2024](https://cvpr.thecvf.com/)</span>
-* <span style="font-size: smaller;">2023-03: One paper on video understanding (Action Quality Assessment) is accepted to [CVPR 2023](https://cvpr.thecvf.com/Conferences/2023)</span>
+* <span style="font-size: smaller;">2025-02: One paper on Triple Modalality Referring Segmentation is accepted to [CVPR 2025](https://cvpr.thecvf.com/)</span>
+* <span style="font-size: smaller;">2024-12: One paper on Referring Image Segmentation is accepted to [AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)</span>
+* <span style="font-size: smaller;">2024-07: One paper on Multimodal Learning is accepted to [ECCV 2024](https://eccv.ecva.net/)</span>
+<!-- * <span style="font-size: smaller;">2023-03: One paper on video understanding (Action Quality Assessment) is accepted to [CVPR 2023](https://cvpr.thecvf.com/Conferences/2023)</span> -->
 
 ---
 # 🔬 Research
@@ -28,65 +28,65 @@ My research interests lie in Computer Vision, such as Video Generation, Video Un
 * indicates equal contribution
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>	
 
-  <!--FlexiAct-->
+  <!--SAM2LOVE-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/method.jpg" alt="dise">
+      <img style="width:100%;max-width:100%" src="../images/sam2love.png" alt="dise">
     </td>
     <td width="75%" valign="center">
-      <papertitle>FlexiAct: Towards Flexible Action Control in Heterogeneous Scenarios</papertitle>
+      <papertitle> 	SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes</papertitle>
       <br>
-      <b>Shiyi Zhang*</b>, Junhao Zhuang*, Zhaoyang Zhang, Yansong Tang
+      <b>Yuji Wang*</b>, Haoran Xu*, Yong Liu, Jiaze Li, Yansong Tang 
       <br>
-      <em>ACM SIGGRAPH (<strong>SIGGRAPH</strong>), 2025</em>
-      <br>
+      <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025
+      <!-- <br>
       <a href="https://arxiv.org/abs/2505.03730">[PDF]</a>
       <a href="https://github.com/shiyi-zh0408/FlexiAct">[Project Page]</a> 
-      <br>
-      <p> We achieve action transfer in heterogeneous scenarios with varying spatial structures or cross-domain subjects.</p>
+      <br> -->
+      <p> We propose a novel framework called SAM2-LOVE to effectively segment the video objects referred by the audio and text and achieve significant improvement in Ref-AVS tasks.</p>
     </td>
   </tr>	
 
-  <!--KV-Edit-->
+  <!--IterPRime-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/kvedit.jpg" alt="dise">
+      <img style="width:100%;max-width:100%" src="../images/iterprime.png" alt="dise">
     </td>
     <td width="75%" valign="center">
       <papertitle>KV-Edit: Training-Free Image Editing for Precise Background Preservation</papertitle>
       <br>
-      Tianrui Zhu*, <b>Shiyi Zhang*</b>, Jiawei Shao, Yansong Tang
+      <b>Yuji Wang*</b>, Jingchen Ni*, Yong Liu, Chun Yuan, Yansong Tang 
       <br>
-      Preprint
+      AAAI Conference on Artificial Intelligence (<strong>AAAI<strong>),2025
       <br>
-      <a href="https://arxiv.org/pdf/2502.17363">[PDF]</a>
-      <a href="https://xilluill.github.io/projectpages/KV-Edit/">[Project Page]</a> 
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
+      <a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a> 
       <br>
-      <p> We propose KV-Edit to address the challenge of background preservation in image editing by preserving the key-value pairs of the background, which effectively handles common semantic editing.</p>
+      <p> We propose the novel IteRPrimE network to leverage the Grad-CAM for zero-shot referring image segmentation, which addresses the previous CLIP-based methods’ low robustness of positional phrases.</p>
     </td>
   </tr>	
 
-  <!--NAE-->
+  <!--DMRNET-->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/nae.png" alt="dise">
+      <img style="width:100%;max-width:100%" src="../images/dmrnet.png" alt="dise">
     </td>
     <td width="75%" valign="center">
       <papertitle>Narrative Action Evaluation with Prompt-Guided Multimodal Interaction</papertitle>
       <br>
-      <b>Shiyi Zhang*</b>, Sule Bai*, Guangyi Chen, Lei Chen, Jiwen Lu, Junle Wang, Yansong Tang
+      Shicai Wei, Yang Luo, <b>Yuji Wang<b>, Chunbo Luo
       <br>
       <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2024
       <br>
-      <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Narrative_Action_Evaluation_with_Prompt-Guided_Multimodal_Interaction_CVPR_2024_paper.pdf">[PDF]</a>
-      <a href="https://github.com/shiyi-zh0408/NAE_CVPR2024">[Project Page]</a> 
+      <a href="https://arxiv.org/pdf/2407.04458">[PDF]</a>
+      <a href="https://github.com/shicaiwei123/ECCV2024-DMRNet">[Project Page]</a> 
       <br>
-      <p> We investigate a new problem called narrative action evaluation (NAE) and propose a prompt-guided multimodal interaction framework.</p>
+      <p> We propose DMRNet improves multimodal learning with missing modalities by modeling inputs as probabilistic distributions to capture modality-specific information, outperforming state-of-the-art methods.</p>
     </td>
   </tr>	
 
   <!--LOGO-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/logo.png" alt="dise">
     </td>
@@ -102,10 +102,10 @@ My research interests lie in Computer Vision, such as Video Generation, Video Un
       <br>
       <p> LOGO is a new multi-person long-form video dataset for action quality assessment.</p>
     </td>
-  </tr>	
+  </tr>	 -->
 
   <!--ManiGaussian-->
-  <tr>
+  <!-- <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
       <img style="width:100%;max-width:100%" src="../images/maga.png" alt="dise">
     </td>
@@ -121,7 +121,10 @@ My research interests lie in Computer Vision, such as Video Generation, Video Un
       <br>
       <p> We propose a dynamic Gaussian Splatting method named ManiGaussian for multi-task robotic manipulation, which mines scene dynamics via future scene reconstruction.</p>
     </td>
-  </tr>	
+  </tr>	 -->
 
 
 </tbody></table>
+
+
+
