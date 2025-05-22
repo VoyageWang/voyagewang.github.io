@@ -53,16 +53,16 @@ My research interests lie in Computer Vision, such as Multimodal Learning,Segmen
       <img style="width:100%;max-width:100%" src="../images/iterprime.png" alt="dise">
     </td>
     <td width="75%" valign="center">
-      <papertitle>KV-Edit: Training-Free Image Editing for Precise Background Preservation</papertitle>
+      <papertitle>IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis</papertitle>
       <br>
       <b>Yuji Wang*</b>, Jingchen Ni*, Yong Liu, Chun Yuan, Yansong Tang 
       <br>
-      AAAI Conference on Artificial Intelligence (<strong>AAAI<strong>),2025
+      AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>),2025
       <br>
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
       <a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a> 
       <br>
-      <p> We propose the novel IteRPrimE network to leverage the Grad-CAM for zero-shot referring image segmentation, which addresses the previous CLIP-based methods’ low robustness of positional phrases.</p>
+      <p> We propose the novel IteRPrimE network to leverage the Grad-CAM for zero-shot referring image segmentation, which addresses the previous CLIP-based methods' low robustness of positional phrases.</p>
     </td>
   </tr>	
 
@@ -72,9 +72,9 @@ My research interests lie in Computer Vision, such as Multimodal Learning,Segmen
       <img style="width:100%;max-width:100%" src="../images/dmrnet.png" alt="dise">
     </td>
     <td width="75%" valign="center">
-      <papertitle>Narrative Action Evaluation with Prompt-Guided Multimodal Interaction</papertitle>
+      <papertitle>Robust Multimodal Learning via Representation Decoupling</papertitle>
       <br>
-      Shicai Wei, Yang Luo, <b>Yuji Wang<b>, Chunbo Luo
+      Shicai Wei, Yang Luo, <b>Yuji Wang</b>, Chunbo Luo
       <br>
       <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2024
       <br>
@@ -85,46 +85,8 @@ My research interests lie in Computer Vision, such as Multimodal Learning,Segmen
     </td>
   </tr>	
 
-  <!--LOGO-->
-  <!-- <tr>
-    <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/logo.png" alt="dise">
-    </td>
-    <td width="75%" valign="center">
-      <papertitle>LOGO: A Long-Form Video Dataset for Group Action Quality Assessment</papertitle>
-      <br>
-      <b>Shiyi Zhang</b>, Wenxun Dai, Sujia Wang, Xiangwei Shen, Jiwen Lu, Jie Zhou, Yansong Tang
-      <br>
-      <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2023
-      <br>
-      <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_LOGO_A_Long-Form_Video_Dataset_for_Group_Action_Quality_Assessment_CVPR_2023_paper.pdf">[PDF]</a>
-      <a href="https://github.com/shiyi-zh0408/LOGO">[Project Page]</a> 
-      <br>
-      <p> LOGO is a new multi-person long-form video dataset for action quality assessment.</p>
-    </td>
-  </tr>	 -->
 
-  <!--ManiGaussian-->
-  <!-- <tr>
-    <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:100%;max-width:100%" src="../images/maga.png" alt="dise">
-    </td>
-    <td width="75%" valign="center">
-      <papertitle>ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation</papertitle>
-      <br>
-      Guanxing Lu, <b>Shiyi Zhang</b>, Ziwei Wang, Changliu Liu, Jiwen Lu and Yansong Tang.
-      <br>
-      <em>European Conference on Computer Vision (<strong>ECCV</strong>), 2024</em>
-      <br>
-      <a href="https://arxiv.org/pdf/2403.08321.pdf">[PDF]</a>
-      <a href="https://github.com/GuanxingLu/ManiGaussian">[Project Page]</a> 
-      <br>
-      <p> We propose a dynamic Gaussian Splatting method named ManiGaussian for multi-task robotic manipulation, which mines scene dynamics via future scene reconstruction.</p>
-    </td>
-  </tr>	 -->
+
 
 
 </tbody></table>
-
-
-
