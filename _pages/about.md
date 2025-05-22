@@ -85,15 +85,20 @@ My research interests lie in Computer Vision, such as Multimodal Learning,Segmen
     </td>
   </tr>	
 
-
-
-
-
 </tbody></table>
+
+---
+# 🏆 Selected Honors and Awards
+---
+* **National Scholarship** for Undergraduate Students, 2022.12, 2023.12
+* First-Class Academic Scholarship, UESTC 2021.12, 2022.12, 2023.12
+* Outstanding Graduate, UESTC, 2024.06
+* Outstanding Graduation Thesis, UESTC, 2024.06
+* First-Class Honor Degree, UESTC, 2024.06
 
 ---
 # 👥 Visitors
 ---
 <div style="text-align: center;">
-<a href="https://clustrmaps.com/site/1bevc" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=pSqGxdyauRrVjsHq2YSTApeSzMqOewuzLgOt0g6Ow6Y&cl=ffffff" /></a>
+<a href="https://clustrmaps.com/site/1c66m" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=SXJmirhTs4ZzElqBB44im0Ge5e4xIAEpNBV_x9oQx68&cl=ffffff"></a>
 </div>
