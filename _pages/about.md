@@ -12,7 +12,7 @@ I am a first-year master student at Shenzhen International Graduate School, Tsin
 
 My research interests lie in Computer Vision, such as Multimodal Learning,Segmentation, Tracking.
 
-[Email](yuji-wan24@mails.tsinghua.edu.cn) / [Google Schoolar](https://scholar.google.com/citations?hl=en&user=oRpCyGkAAAAJ)
+[Email](mailto: yuji-wan24@mails.tsinghua.edu.cn) / [Google Schoolar](https://scholar.google.com/citations?hl=en&user=oRpCyGkAAAAJ)
 
 ---
 # ✨ News
