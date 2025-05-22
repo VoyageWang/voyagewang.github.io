@@ -25,7 +25,6 @@ My research interests lie in Computer Vision, such as Multimodal Learning,Segmen
 ---
 # 🔬 Research
 ---
-* indicates equal contribution
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>	
 
   <!--SAM2LOVE-->
@@ -76,7 +75,7 @@ My research interests lie in Computer Vision, such as Multimodal Learning,Segmen
       <br>
       Shicai Wei, Yang Luo, <b>Yuji Wang</b>, Chunbo Luo
       <br>
-      <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2024
+      <em>European Conference on Computer Vision (<strong>ECCV</strong>)</em>, 2024
       <br>
       <a href="https://arxiv.org/pdf/2407.04458">[PDF]</a>
       <a href="https://github.com/shicaiwei123/ECCV2024-DMRNet">[Project Page]</a> 
