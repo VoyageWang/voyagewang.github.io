@@ -10,7 +10,7 @@ redirect_from:
 I am a first-year master student at Shenzhen International Graduate School, Tsinghua University. I am fortunate to be supervised by Prof. [Yansong Tang](https://andytang15.github.io/) in IVG@SZ group. Before that, I got B.S. in Electric and Electronic Engineering from the University of Electronic and Science Technology of China (UESTC) in 2024.
 
 
-My research interests lie in Computer Vision, such as Multimodal Learning,Segmentation, Tracking.
+My research interests lie in Computer Vision, such as Multimodal Learning, Segmentation, Tracking.
 
 [Email](mailto: yuji-wan24@mails.tsinghua.edu.cn) / [Google Schoolar](https://scholar.google.com/citations?hl=en&user=oRpCyGkAAAAJ)
 
@@ -56,7 +56,7 @@ My research interests lie in Computer Vision, such as Multimodal Learning,Segmen
       <br>
       <b>Yuji Wang*</b>, Jingchen Ni*, Yong Liu, Chun Yuan, Yansong Tang 
       <br>
-      AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>),2025
+      AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025
       <br>
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
       <a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a> 
