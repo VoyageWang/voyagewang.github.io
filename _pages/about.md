@@ -56,7 +56,7 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
       <br>
       <b>Yuji Wang*</b>, Jingchen Ni*, Yong Liu, Chun Yuan, Yansong Tang 
       <br>
-      AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025
+      <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2025
       <br>
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32880">[PDF]</a>
       <a href="https://github.com/VoyageWang/IteRPrimE">[Project Page]</a> 
