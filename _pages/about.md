@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year master student at Shenzhen International Graduate School, Tsinghua University. I am fortunate to be supervised by Prof. [Yansong Tang](https://andytang15.github.io/) in IVG@SZ group. Before that, I got B.S. in Electric and Electronic Engineering from the University of Electronic and Science Technology of China (UESTC) in 2024.
+I am a first-year master student at Shenzhen International Graduate School, Tsinghua University. I am fortunate to be supervised by Prof. [Yansong Tang](https://andytang15.github.io/) in IVG@SZ group. Before that, I got B.S. in Electric and Electronic Engineering from the University of Electronic Science and Technology of China (UESTC) in 2024.
 
 
 My research interests lie in Computer Vision, such as Multimodal Learning, Segmentation, Tracking.
@@ -38,10 +38,10 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
       <b>Yuji Wang*</b>, Haoran Xu*, Yong Liu, Jiaze Li, Yansong Tang 
       <br>
       <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025
-      <!-- <br>
-      <a href="https://arxiv.org/abs/2505.03730">[PDF]</a>
-      <a href="https://github.com/shiyi-zh0408/FlexiAct">[Project Page]</a> 
-      <br> -->
+      <br>
+      <a href="https://arxiv.org/abs/2506.01558">[PDF]</a>
+      <!-- <a href="https://github.com/shiyi-zh0408/FlexiAct">[Project Page]</a>  -->
+      <br>
       <p> We propose a novel framework called SAM2-LOVE to effectively segment the video objects referred by the audio and text and achieve significant improvement in Ref-AVS tasks.</p>
     </td>
   </tr>	
