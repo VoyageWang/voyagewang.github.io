@@ -39,7 +39,7 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
       <br>
       <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025
       <br>
-      <a href="https://arxiv.org/abs/2506.01558">[PDF]</a>
+      <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_SAM2-LOVE_Segment_Anything_Model_2_in_Language-aided_Audio-Visual_Scenes_CVPR_2025_paper.pdf">[PDF]</a>
       <!-- <a href="https://github.com/shiyi-zh0408/FlexiAct">[Project Page]</a>  -->
       <br>
       <p> We propose a novel framework called SAM2-LOVE to effectively segment the video objects referred by the audio and text and achieve significant improvement in Ref-AVS tasks.</p>
