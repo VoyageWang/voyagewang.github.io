@@ -95,9 +95,7 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
 * Outstanding Graduation Thesis, UESTC, 2024.06
 * First-Class Honor Degree, UESTC, 2024.06
 
----
-# 👥 Visitors
----
+
 <div style="text-align: center;">
-<a href="https://clustrmaps.com/site/1c66m" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=SXJmirhTs4ZzElqBB44im0Ge5e4xIAEpNBV_x9oQx68&cl=ffffff"></a>
+<a href="https://clustrmaps.com/site/1c66m" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=SXJmirhTs4ZzElqBB44im0Ge5e4xIAEpNBV_x9oQx68&cl=ffffff" width="400" height="250"></a>
 </div>
