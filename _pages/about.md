@@ -97,9 +97,9 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
       <img style="width:80%;max-width:80%" src="../images/idea.png" alt="idea">
     </td>
     <td width="75%" valign="center"> 
-      <papertitle>IDEA Research Institute, Shenzhen, China. 2025.8 - Current</papertitle>
+      <papertitle><a href="https://www.idea.edu.cn/">IDEA Research Institute</a>, Shenzhen, China. 2025.8 - Current</papertitle>
         <li style="margin: 5px;">  Project:  Multimodal Learning Resasoning. </li>
-        <li style="margin: 5px;">  Research Intern in Computer Vision and Robotics (CVR) Lab lead by Lei Zhang. </li>
+        <li style="margin: 5px;">  Research Intern in Computer Vision and Robotics (CVR) Lab led by <a href="https://www.leizhang.org/">Lei Zhang</a>. </li>
     </td>
   </tr>
 </tbody></table>
