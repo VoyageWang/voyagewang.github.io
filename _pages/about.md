@@ -86,6 +86,25 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
 
 </tbody></table>
 
+
+---
+# 💼 Internship
+---
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom:-20px;"><tbody>
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:80%;max-width:80%" src="../images/idea.png" alt="idea">
+    </td>
+    <td width="75%" valign="center"> 
+      <papertitle>IDEA Research Institute, Shenzhen, China. 2025.8 - Current</papertitle>
+        <li style="margin: 5px;">  Project:  Multimodal Learning Resasoning. </li>
+        <li style="margin: 5px;">  Research Intern in Computer Vision and Robotics (CVR) Lab lead by Lei Zhang. </li>
+    </td>
+  </tr>
+</tbody></table>
+
+
 ---
 # 🏆 Selected Honors and Awards
 ---
@@ -94,6 +113,7 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
 * Outstanding Graduate, UESTC, 2024.06
 * Outstanding Graduation Thesis, UESTC, 2024.06
 * First-Class Honor Degree, UESTC, 2024.06
+
 
 ---
 # 👥 Visitors
