@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year master student at Shenzhen International Graduate School, Tsinghua University. I am fortunate to be supervised by Prof. [Yansong Tang](https://andytang15.github.io/) in IVG@SZ group. Before that, I got B.S. in Electric and Electronic Engineering from the University of Electronic Science and Technology of China (UESTC) in 2024.
+I am a second-year master student at Shenzhen International Graduate School, Tsinghua University. I am fortunate to be supervised by Prof. [Yansong Tang](https://andytang15.github.io/) in IVG@SZ group. Before that, I got B.S. in Electric and Electronic Engineering from the University of Electronic Science and Technology of China (UESTC) in 2024.
 
 
-My research interests lie in Computer Vision, such as Multimodal Learning, Segmentation, Tracking.
+My research interests lie in Computer Vision, such as Lagre Vision-Language Model, Tool-calling, Multimodal Learning, Segmentation, and Tracking.
 
 [Email](mailto: yuji-wan24@mails.tsinghua.edu.cn) / [Google Schoolar](https://scholar.google.com/citations?hl=en&user=oRpCyGkAAAAJ)
 
@@ -97,7 +97,7 @@ My research interests lie in Computer Vision, such as Multimodal Learning, Segme
       <img style="width:80%;max-width:80%" src="../images/idea.png" alt="idea">
     </td>
     <td width="75%" valign="center"> 
-      <papertitle><a href="https://www.idea.edu.cn/">IDEA Research Institute</a>, Shenzhen, China. 2025.8 - Current</papertitle>
+      <papertitle><a href="https://www.idea.edu.cn/">IDEA Research Institute</a>, Shenzhen, China. 2025.8 - 2025.12</papertitle>
         <li style="margin: 5px;">  Project:  Multimodal Learning Resasoning. </li>
         <li style="margin: 5px;">  Research Intern in Computer Vision and Robotics (CVR) Lab led by <a href="https://www.leizhang.org/">Lei Zhang</a>. </li>
     </td>
