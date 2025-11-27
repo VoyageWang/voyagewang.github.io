@@ -108,6 +108,7 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 ---
 # 🏆 Selected Honors and Awards
 ---
+* Second-Class Academic Scholarship. Tsinghua University, 2025.11
 * **National Scholarship** for Undergraduate Students, 2022.12, 2023.12
 * First-Class Academic Scholarship, UESTC 2021.12, 2022.12, 2023.12
 * Outstanding Graduate, UESTC, 2024.06
