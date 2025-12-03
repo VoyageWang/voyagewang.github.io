@@ -104,6 +104,19 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
   </tr>
 </tbody></table>
 
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom:-20px;"><tbody>
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:80%;max-width:80%" src="../images/keling.jpg" alt="keling">
+    </td>
+    <td width="75%" valign="center"> 
+      <papertitle><a href="https://klingai.com/">Kuaishou Kling AI</a>, Shenzhen, China. 2025.12 - Current</papertitle>
+        <li style="margin: 5px;">  Project: Function calling. </li>
+        <li style="margin: 5px;">  Research Intern in Kling AI Team, supervised by <a href="https://scholar.google.com/citations?hl=zh-CN&user=xNxlvjEAAAAJ&view_op=list_works&sortby=pubdate">Jiajun Liang</a>. </li>
+    </td>
+  </tr>
+</tbody></table>
+
 
 ---
 # 🏆 Selected Honors and Awards
