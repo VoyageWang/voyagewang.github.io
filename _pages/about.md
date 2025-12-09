@@ -17,6 +17,7 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 ---
 # ✨ News
 ---
+* <span style="font-size: smaller;">2025-12: One paper on Tool-Refined Visual Grounding is available on [arXiv](https://arxiv.org/abs/2512.06373)</span>
 * <span style="font-size: smaller;">2025-02: One paper on Triple Modalality Referring Segmentation is accepted to [CVPR 2025](https://cvpr.thecvf.com/)</span>
 * <span style="font-size: smaller;">2024-12: One paper on Referring Image Segmentation is accepted to [AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)</span>
 * <span style="font-size: smaller;">2024-07: One paper on Multimodal Learning is accepted to [ECCV 2024](https://eccv.ecva.net/)</span>
@@ -26,6 +27,25 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 # 🔬 Research
 ---
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>	
+
+  <!--VG-Refiner-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/vg-refiner.PNG" alt="vg-refiner">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning</papertitle>
+      <br>
+      <b>Yuji Wang</b>, Wenlong Liu, Jingxuan Niu, Haoji Zhang, Yansong Tang 
+      <br>
+      <em>arXiv preprint</em>, 2025
+      <br>
+      <a href="https://arxiv.org/abs/2512.06373">[PDF]</a>
+      <a href="https://github.com/VoyageWang/VG-Refiner">[Project Page]</a> 
+      <br>
+      <p> We propose VG-Refiner, the first framework for tool-refined referring grounded reasoning with a two-stage think-rethink mechanism and refinement reward to handle unreliable tool outputs.</p>
+    </td>
+  </tr>	
 
   <!--SAM2LOVE-->
   <tr>
