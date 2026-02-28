@@ -17,6 +17,7 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 ---
 # ✨ News
 ---
+* <span style="font-size: smaller;">2026-02: One paper on Reasoning-Driven Multimodal Embeddings is available on [arXiv](https://arxiv.org/abs/2602.13823)</span>
 * <span style="font-size: smaller;">2025-12: One paper on Tool-Refined Visual Grounding is available on [arXiv](https://arxiv.org/abs/2512.06373)</span>
 * <span style="font-size: smaller;">2025-02: One paper on Triple Modalality Referring Segmentation is accepted to [CVPR 2025](https://cvpr.thecvf.com/)</span>
 * <span style="font-size: smaller;">2024-12: One paper on Referring Image Segmentation is accepted to [AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)</span>
@@ -27,6 +28,25 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 # 🔬 Research
 ---
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>	
+
+  <!--Embed-RL-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/embed-rl.png" alt="embed-rl">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings</papertitle>
+      <br>
+      Haonan Jiang*, <b>Yuji Wang*</b>, Yongjie Zhu, Xin Lu, Wenyu Qin, Meng Wang, Pengfei Wan, Yansong Tang 
+      <br>
+      <em>arXiv preprint</em>, 2026
+      <br>
+      <a href="https://arxiv.org/abs/2602.13823">[PDF]</a>
+      <a href="https://github.com/ZoengHN/Embed-RL">[Project Page]</a> 
+      <br>
+      <p> We propose Embed-RL, a reasoning-driven universal multimodal embedding framework that uses Embedder-Guided Reinforcement Learning to generate retrieval-relevant Traceable Chain-of-Thought, significantly outperforming existing models on MMEB-V2 and UVRB benchmarks.</p>
+    </td>
+  </tr>	
 
   <!--VG-Refiner-->
   <tr>
@@ -130,8 +150,8 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
       <img style="width:80%;max-width:80%" src="../images/keling.jpg" alt="keling">
     </td>
     <td width="75%" valign="center"> 
-      <papertitle><a href="https://klingai.com/">Kuaishou Kling AI</a>, Shenzhen, China. 2025.12 - Current</papertitle>
-        <li style="margin: 5px;">  Project: Function calling. </li>
+      <papertitle><a href="https://klingai.com/">Kuaishou Kling AI</a>, Shenzhen, China. 2025.12 - 2026.3</papertitle>
+        <li style="margin: 5px;">  Project: Function calling, Multimoadl embedding. </li>
         <li style="margin: 5px;">  Research Intern in Kling AI Team, supervised by <a href="https://jiajunvision.github.io/">Jiajun Liang</a>. </li>
     </td>
   </tr>
