@@ -148,6 +148,37 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 
 
 ---
+# 🎓 Education
+---
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom:-20px;"><tbody>
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:80%;max-width:80%" src="../images/thu.jpeg" alt="thu">
+    </td>
+    <td width="75%" valign="center"> 
+      <papertitle><a href="https://www.sigs.tsinghua.edu.cn/">Tsinghua University, Shenzhen International Graduate School</a>. Sep 2024 – Jun 2027</papertitle>
+        <li style="margin: 5px;"> M.S. in Data Science and Information Technology. </li>
+        <li style="margin: 5px;"> Advisor: <a href="https://andytang15.github.io/">Prof. Yansong Tang</a> · IVG@SZ Group. </li>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom:-20px;"><tbody>
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:80%;max-width:80%" src="../images/uestc.png" alt="uestc">
+    </td>
+    <td width="75%" valign="center"> 
+      <papertitle><a href="https://www.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a>. Sep 2020 – Jun 2024</papertitle>
+        <li style="margin: 5px;"> B.S. in Electric and Electronic Engineering (EEE). </li>
+        <li style="margin: 5px;"> UESTC Outstanding Bachelor's Graduate (Top 5%). </li>
+    </td>
+  </tr>
+</tbody></table>
+
+
+---
 # 💼 Internship
 ---
 
