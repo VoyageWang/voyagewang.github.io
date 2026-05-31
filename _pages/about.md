@@ -154,7 +154,7 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom:-20px;"><tbody>
   <tr>
     <td style="padding:20px;width:30%;max-width:30%" align="center">
-      <img style="width:80%;max-width:80%" src="../images/thu.jpeg" alt="thu">
+      <img style="width:55%;max-width:55%" src="../images/thu.jpeg" alt="thu">
     </td>
     <td width="75%" valign="center"> 
       <papertitle><a href="https://www.sigs.tsinghua.edu.cn/">Tsinghua University, Shenzhen International Graduate School</a>. Sep 2024 – Jun 2027</papertitle>
