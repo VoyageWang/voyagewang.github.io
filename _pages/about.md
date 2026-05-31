@@ -17,6 +17,7 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 ---
 # ✨ News
 ---
+* <span style="font-size: smaller;">2026-05: One paper on SAM 2-based Visual Object Tracking (SAMOSA) is available on [arXiv](https://arxiv.org/abs/2605.22538)</span>
 * <span style="font-size: smaller;">2026-02: One paper on Reasoning-Driven Multimodal Embeddings is available on [arXiv](https://arxiv.org/abs/2602.13823)</span>
 * <span style="font-size: smaller;">2025-12: One paper on Tool-Refined Visual Grounding is available on [arXiv](https://arxiv.org/abs/2512.06373)</span>
 * <span style="font-size: smaller;">2025-02: One paper on Triple Modalality Referring Segmentation is accepted to [CVPR 2025](https://cvpr.thecvf.com/)</span>
@@ -28,6 +29,25 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 # 🔬 Research
 ---
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>	
+
+  <!--SAMOSA-->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%" align="center">
+      <img style="width:100%;max-width:100%" src="../images/samosa.png" alt="samosa">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>SAMOSA: Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking</papertitle>
+      <br>
+      Deyi Zhu*, <b>Yuji Wang*</b>, Yong Liu, Yansong Tang, Bingyao Yu, Jiwen Lu, Jie Zhou
+      <br>
+      <em>arXiv preprint</em>, 2026
+      <br>
+      <a href="https://arxiv.org/abs/2605.22538">[PDF]</a>
+      <a href="https://github.com/DurYi/SAMOSA">[Project Page]</a> 
+      <br>
+      <p> We propose SAMOSA, a SAM 2-based tracking framework that adapts vision foundation models to complex visual object tracking by explicitly modeling motion, geometry, and semantic cues via a lightweight Motion Predictor, achieving strong performance on general VOT benchmarks and substantial gains on anti-UAV datasets with nonlinear motion.</p>
+    </td>
+  </tr>	
 
   <!--Embed-RL-->
   <tr>
@@ -167,6 +187,13 @@ My research interests lie in Computer Vision, such as Lagre Vision-Language Mode
 * Outstanding Graduate, UESTC, 2024.06
 * Outstanding Graduation Thesis, UESTC, 2024.06
 * First-Class Honor Degree, UESTC, 2024.06
+
+
+---
+# 📋 Academic Services
+---
+* Conference Reviewer: ICCV, AAAI, CVPR
+* Journal Reviewer: TIP
 
 
 ---
