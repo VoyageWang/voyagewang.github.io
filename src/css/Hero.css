@@ -34,6 +34,12 @@
     font-size: 1.5rem;
     font-style: italic;
 }
+.meta-native-name{
+    font-size: 1.05rem;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--theme-color-soft);
+}
 .meta-description{
     display: grid;
     gap: 0.42rem;
