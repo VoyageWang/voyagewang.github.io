@@ -150,7 +150,10 @@ export default function Experience() {
                 <ul className="exp-details">
                   {experience.details.map((detail) => (
                     <li key={detail.label}>
-                      <span><span className="exp-project-name">{detail.label}</span> {detail.text}</span>
+                      <span><span className="exp-project-name">{detail.label}</span> {detail.text}{detail.people?.map((person, index) => <React.Fragment key={person.name}>
+                        {index > 0 && (index === detail.people.length - 1 ? (detail.people.length > 2 ? ", and " : " and ") : ", ")}
+                        {person.url ? <a className="exp-person" href={person.url} target="_blank" rel="noreferrer">{person.name}</a> : person.name}
+                      </React.Fragment>)}</span>
                     </li>
                   ))}
                 </ul>

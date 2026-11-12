@@ -238,6 +238,16 @@
     font-weight: 700;
 }
 
+.exp-person {
+    color: var(--theme-text-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--theme-color-pale);
+}
+
+.exp-person:hover {
+    border-bottom-color: var(--theme-color-soft);
+}
+
 @media (max-width: 1100px) {
     .timeline-container { padding-left: 4.75rem; }
     .timeline-container::before { left: 3.5rem; }

@@ -14,6 +14,23 @@
       {
         "label": "Knowledge work agent:",
         "text": "Agentic training for multi-step document, spreadsheet, and slide deliverables in ERNIE 5.5 Flash Preview."
+      },
+      {
+        "label": "Led by:",
+        "people": [
+          {
+            "name": "Yi Liu",
+            "url": "https://scholar.google.com/citations?user=d_wa7ogAAAAJ&hl=en"
+          },
+          {
+            "name": "Dianhai Yu",
+            "url": "https://scholar.google.com/citations?user=ojMZz_kAAAAJ&hl=en"
+          },
+          {
+            "name": "Shikun Feng",
+            "url": "https://scholar.google.com/citations?user=u9CYmnAAAAAJ&hl=en"
+          }
+        ]
       }
     ],
     "highlights": [
