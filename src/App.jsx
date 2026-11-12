@@ -9,6 +9,7 @@ import "./css/Typography.css";
 import News from "./components/News.jsx";
 import Projects from "./components/Projects.jsx";
 import AcademicBackground from "./components/AcademicBackground.jsx";
+import MyLife from "./components/MyLife.jsx";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                         <Experience />
                         <AcademicBackground />
                         <Projects />
+                        <MyLife />
                     </div>
                 </div>
             </div>

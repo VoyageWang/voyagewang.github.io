@@ -10,7 +10,7 @@ export const configTypes = {
   "site.json": "site",
   "hero.json": "hero", "about.json": "about", "news.json": "news",
   "publications.json": "publications", "experience.json": "experience",
-  "projects.json": "projects", "education.json": "education", "awards.json": "awards",
+  "projects.json": "projects", "education.json": "education", "awards.json": "awards", "life.json": "life",
   "publication-previews.json": "previews", "theme.jsonc": "theme",
   "paper-recommendations.json": "recommendations",
 };

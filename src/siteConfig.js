@@ -7,6 +7,7 @@ import heroData from "../config/hero.json";
 import aboutData from "../config/about.json";
 import educationData from "../config/education.json";
 import awardsData from "../config/awards.json";
+import lifeData from "../config/life.json";
 import themeSource from "../config/theme.jsonc?raw";
 import previewItems from "../config/publication-previews.json";
 import { parseConfig } from "./utils/parseConfig";
@@ -55,6 +56,10 @@ export const education = {
   items: educationData.items.map((item) => ({ ...item, logo: resolveAsset(item.logo) })),
 };
 export const awards = awardsData;
+export const life = {
+  ...lifeData,
+  photos: lifeData.photos.map((photo) => ({ ...photo, image: resolveAsset(photo.image) })),
+};
 export function isSectionVisible(section) {
   return section.enabled === true && Array.isArray(section.items) && section.items.length > 0;
 }

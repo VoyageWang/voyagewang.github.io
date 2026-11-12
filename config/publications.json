@@ -66,38 +66,6 @@
     }
   },
   {
-    "id": "opera",
-    "image": "assets/publications/opera.jpg",
-    "title": "OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation",
-    "abstract": "Referring video segmentation with heterogeneous multimodal queries---spanning text, audio, and reference images---demands both robust cross-modal understanding and precise spatio-temporal reasoning. We propose OPERA (Omnimodal Progressive spatio-tEmporal Reasoning Agent), a unified reasoning agent built on a single MLLM that performs dual-axis progressive reasoning via three specialized stages. Along the temporal axis, a Temporal Reasoning Agent narrows the frame search space through coarse-to-fine filtering to identify the most informative key frame. Along the spatial axis, a Distillation Agent establishes what to locate via cross-modal semantic distillation, and a Grounding Agent enhanced with GRPO determines where the target appears, with dense mask propagation completing the pixel-level output. OPERA sets a new state of the art on OmniAVS and Ref-AVS and transfers zero-shot to standard referring video segmentation benchmarks.",
-    "authors": [
-      {
-        "text": "Jingchen Ni*, "
-      },
-      {
-        "text": "Yuji Wang*",
-        "strong": true
-      },
-      {
-        "text": ", Shannan Yan*, Haoru Li, Sitong Chen, Chun Yuan"
-      }
-    ],
-    "venue": "arXiv '26",
-    "venueType": "preprint",
-    "tags": [
-      "Referring Video Segmentation",
-      "Omnimodal Agent",
-      "Spatio-Temporal Reasoning"
-    ],
-    "link": "https://arxiv.org/abs/2609.33338",
-    "pdfUrl": "https://arxiv.org/pdf/2609.33338",
-    "citation": "J. Ni, Y. Wang, S. Yan, H. Li, S. Chen, and C. Yuan, “OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation,” arXiv preprint arXiv:2609.33338, 2026.",
-    "authorTag": {
-      "label": "Co-first author",
-      "type": "cofirst"
-    }
-  },
-  {
     "id": "vg-refiner",
     "image": "assets/publications/vg-refiner.png",
     "title": "VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning",
@@ -209,6 +177,38 @@
     ],
     "link": "/ECCV_2026_cr_1-3.pdf",
     "citation": "Z. Zhao, Y. Wang, Y. Wu, H. Wang, E. Zhang, W. K. V. Chan, and Y. Li, “Going Deep: Deep Visual Prompting with LoTeP,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026, pp. 19–36.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
+  },
+  {
+    "id": "opera",
+    "image": "assets/publications/opera.jpg",
+    "title": "OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation",
+    "abstract": "Referring video segmentation with heterogeneous multimodal queries---spanning text, audio, and reference images---demands both robust cross-modal understanding and precise spatio-temporal reasoning. We propose OPERA (Omnimodal Progressive spatio-tEmporal Reasoning Agent), a unified reasoning agent built on a single MLLM that performs dual-axis progressive reasoning via three specialized stages. Along the temporal axis, a Temporal Reasoning Agent narrows the frame search space through coarse-to-fine filtering to identify the most informative key frame. Along the spatial axis, a Distillation Agent establishes what to locate via cross-modal semantic distillation, and a Grounding Agent enhanced with GRPO determines where the target appears, with dense mask propagation completing the pixel-level output. OPERA sets a new state of the art on OmniAVS and Ref-AVS and transfers zero-shot to standard referring video segmentation benchmarks.",
+    "authors": [
+      {
+        "text": "Jingchen Ni*, "
+      },
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Shannan Yan*, Haoru Li, Sitong Chen, Chun Yuan"
+      }
+    ],
+    "venue": "arXiv '26",
+    "venueType": "preprint",
+    "tags": [
+      "Referring Video Segmentation",
+      "Omnimodal Agent",
+      "Spatio-Temporal Reasoning"
+    ],
+    "link": "https://arxiv.org/abs/2609.33338",
+    "pdfUrl": "https://arxiv.org/pdf/2609.33338",
+    "citation": "J. Ni, Y. Wang, S. Yan, H. Li, S. Chen, and C. Yuan, “OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation,” arXiv preprint arXiv:2609.33338, 2026.",
     "authorTag": {
       "label": "Co-first author",
       "type": "cofirst"

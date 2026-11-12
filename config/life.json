@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "title": "My Life",
+  "paragraphs": [
+    [
+      {
+        "text": "Outside the lab, I love "
+      },
+      {
+        "text": "traveling",
+        "strong": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "taking photos",
+        "strong": true
+      },
+      {
+        "text": ", and "
+      },
+      {
+        "text": "making new friends",
+        "strong": true
+      },
+      {
+        "text": ". Conferences are my favorite excuse to do all three: a poster session, a new city, and new people to talk to. If you want to chat about research, photography, or travel, say hi on WeChat."
+      }
+    ]
+  ],
+  "wechat": "wyj15756500607",
+  "photos": [
+    {
+      "image": "assets/life/hills.jpg",
+      "alt": "Yuji standing on a green hillside under a wide cloudy sky",
+      "wide": true
+    },
+    {
+      "image": "assets/life/doha.jpg",
+      "alt": "Yuji in front of the Museum of Islamic Art in Doha at sunset",
+      "caption": "Museum of Islamic Art, Doha"
+    },
+    {
+      "image": "assets/life/city-night.jpg",
+      "alt": "Yuji on a neon-lit city street at night"
+    },
+    {
+      "image": "assets/life/eccv-posters.jpg",
+      "alt": "Yuji presenting the Embed-RL and TAIHRI posters",
+      "caption": "Presenting Embed-RL and TAIHRI"
+    }
+  ]
+}

@@ -35,7 +35,7 @@
     "link": { "type": "string", "pattern": "^(https?://|mailto:|/|#)" },
     "segment": {
       "type": "object", "additionalProperties": false, "required": ["text"],
-      "properties": { "text": { "$ref": "#/$defs/text" }, "strong": { "type": "boolean" }, "href": { "$ref": "#/$defs/link" } }
+      "properties": { "text": { "$ref": "#/$defs/text" }, "strong": { "type": "boolean" }, "italic": { "type": "boolean" }, "href": { "$ref": "#/$defs/link" } }
     },
     "segments": { "type": "array", "items": { "$ref": "#/$defs/segment" } },
     "hero": {
@@ -117,6 +117,15 @@
         "type": "object", "additionalProperties": false, "required": ["title"],
         "properties": { "title": { "$ref": "#/$defs/text" }, "organization": { "type": "string" }, "year": { "type": "string" }, "description": { "type": "string" } }
       } } }
+    },
+    "life": {
+      "type": "object", "additionalProperties": false, "required": ["enabled", "paragraphs", "photos"],
+      "properties": {
+        "enabled": { "type": "boolean" }, "title": { "$ref": "#/$defs/text" },
+        "paragraphs": { "type": "array", "items": { "$ref": "#/$defs/segments" } }, "wechat": { "$ref": "#/$defs/text" },
+        "photos": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["image", "alt"],
+          "properties": { "image": { "$ref": "#/$defs/asset" }, "alt": { "$ref": "#/$defs/text" }, "caption": { "$ref": "#/$defs/text" }, "wide": { "type": "boolean" } } } }
+      }
     },
     "theme": { "type": "object", "minProperties": 1, "propertyNames": { "pattern": "^--theme-[a-z-]+$" }, "additionalProperties": { "$ref": "#/$defs/text" } },
     "metric": {

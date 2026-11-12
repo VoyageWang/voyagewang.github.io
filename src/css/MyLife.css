@@ -1,0 +1,24 @@
+.life-section { margin: 1rem 0; scroll-margin-top: 80px; text-align: left; }
+.life-text { margin: .2rem 0 .8rem; color: var(--theme-text-color); font-size: .92rem; line-height: 1.75; text-align: justify; }
+
+/* WeChat ID as a single copyable chip. */
+.life-wechat { display: inline-flex; align-items: center; gap: .45rem; margin-bottom: 1rem; padding: .35rem .45rem .35rem .75rem; border: 1px solid #e2e5ef; border-radius: 999px; background: #fff; font-size: .82rem; color: #4a4e5a; }
+.life-wechat > svg { width: 17px; height: 17px; color: #07c160; }
+.life-wechat code { padding: .1rem .45rem; border-radius: 6px; background: var(--theme-color-surface-soft); color: var(--theme-text-color); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .8rem; }
+.life-wechat button { display: inline-flex; align-items: center; gap: .25rem; padding: .22rem .6rem; border: 1px solid #d8dceb; border-radius: 999px; background: #fff; color: var(--theme-text-color); font: inherit; font-size: .74rem; cursor: pointer; }
+.life-wechat button:hover { border-color: var(--theme-color-border); background: var(--theme-color-surface-soft); }
+.life-wechat button:focus-visible { outline: 2px solid var(--theme-color-soft); outline-offset: 2px; }
+.life-wechat button svg { width: 13px; height: 13px; }
+
+/* One wide landscape on top, portraits below in a row. */
+.life-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; }
+.life-photo { position: relative; margin: 0; overflow: hidden; border-radius: 10px; background: #eef0f6; aspect-ratio: 3 / 4; }
+.life-photo.is-wide { grid-column: 1 / -1; aspect-ratio: 16 / 8; }
+.life-photo img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.life-photo:hover img { transform: scale(1.03); }
+.life-photo figcaption { position: absolute; inset: auto 0 0; padding: 1.4rem .7rem .5rem; background: linear-gradient(transparent, rgb(0 0 0 / 55%)); color: #fff; font-size: .74rem; line-height: 1.35; }
+
+@media (max-width: 600px) {
+  .life-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .life-photo:last-child:nth-child(even) { grid-column: 1 / -1; aspect-ratio: 4 / 3; }
+}

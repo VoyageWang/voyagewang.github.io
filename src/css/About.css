@@ -96,3 +96,5 @@
 .intro-text a:hover {
     color: var(--theme-color-pale);
 }
+
+.intro-text em { font-synthesis: style; }
