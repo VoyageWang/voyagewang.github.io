@@ -1,0 +1,36 @@
+[
+  {
+    "organization": "Kuaishou Kling AI",
+    "logo": "assets/experience/kling.jpg",
+    "period": "2025.12 — 2026.03",
+    "location": "Shenzhen, China",
+    "role": "Research Intern, Kling AI Team",
+    "details": [
+      {
+        "label": "Project:",
+        "text": "Function calling and multimodal embedding."
+      },
+      {
+        "label": "Supervisor:",
+        "text": "Jiajun Liang."
+      }
+    ]
+  },
+  {
+    "organization": "IDEA Research Institute",
+    "logo": "assets/experience/idea.png",
+    "period": "2025.08 — 2025.12",
+    "location": "Shenzhen, China",
+    "role": "Research Intern, Computer Vision and Robotics (CVR) Lab",
+    "details": [
+      {
+        "label": "Project:",
+        "text": "Multimodal learning and reasoning."
+      },
+      {
+        "label": "Lab:",
+        "text": "CVR Lab led by Lei Zhang."
+      }
+    ]
+  }
+]

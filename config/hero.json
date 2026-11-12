@@ -1,0 +1,38 @@
+{
+  "name": "Yuji Wang",
+  "title": "Master's Student, Tsinghua University",
+  "profileImage": "assets/profile.jpg",
+  "brandLogo": "assets/logo.svg",
+  "descriptions": [
+    {
+      "icon": "graduation",
+      "text": "Tsinghua SIGS · IVG@SZ Group"
+    },
+    {
+      "icon": "sparkles",
+      "text": "VLMs, Tool-calling & Agentic RL"
+    },
+    {
+      "icon": "scan",
+      "text": "Multimodal Segmentation & Tracking"
+    }
+  ],
+  "primaryLinks": [],
+  "socialLinks": [
+    {
+      "label": "Email",
+      "icon": "email",
+      "url": "mailto:yuji-wan24@mails.tsinghua.edu.cn"
+    },
+    {
+      "label": "Google Scholar",
+      "icon": "scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=oRpCyGkAAAAJ"
+    },
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/VoyageWang"
+    }
+  ]
+}

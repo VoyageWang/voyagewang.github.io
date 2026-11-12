@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "endpoint": "",
+  "limit": 4,
+  "cacheMinutes": 30,
+  "daily": {
+    "enabled": true,
+    "limit": 4,
+    "keywords": [
+      "Vision-Language Model",
+      "Agentic Reinforcement Learning",
+      "Referring Segmentation",
+      "Visual Object Tracking",
+      "Multimodal Embedding"
+    ]
+  }
+}

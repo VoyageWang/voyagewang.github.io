@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026.05",
+    "segments": [
+      {
+        "text": "One paper on SAM 2-based visual object tracking (SAMOSA) is available on "
+      },
+      {
+        "text": "arXiv",
+        "href": "https://arxiv.org/abs/2605.22538"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "date": "2026.02",
+    "segments": [
+      {
+        "text": "One paper on reasoning-driven multimodal embeddings (Embed-RL) is available on "
+      },
+      {
+        "text": "arXiv",
+        "href": "https://arxiv.org/abs/2602.13823"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "date": "2025.12",
+    "segments": [
+      {
+        "text": "One paper on tool-refined visual grounding (VG-Refiner) is available on "
+      },
+      {
+        "text": "arXiv",
+        "href": "https://arxiv.org/abs/2512.06373"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "date": "2025.02",
+    "segments": [
+      {
+        "text": "One paper on triple-modality referring segmentation is accepted to "
+      },
+      {
+        "text": "CVPR 2025",
+        "href": "https://cvpr.thecvf.com/"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "date": "2024.12",
+    "segments": [
+      {
+        "text": "One paper on referring image segmentation is accepted to "
+      },
+      {
+        "text": "AAAI 2025",
+        "href": "https://aaai.org/conference/aaai/aaai-25/"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "date": "2024.07",
+    "segments": [
+      {
+        "text": "One paper on multimodal learning is accepted to "
+      },
+      {
+        "text": "ECCV 2024",
+        "href": "https://eccv.ecva.net/"
+      },
+      {
+        "text": "."
+      }
+    ]
+  }
+]

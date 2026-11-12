@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "items": [
+    {
+      "institution": "Tsinghua University, Shenzhen International Graduate School",
+      "degree": "M.S. in Data Science and Information Technology",
+      "period": "2024.09 – 2027.06",
+      "location": "Shenzhen, China",
+      "description": "Advisor: Prof. Yansong Tang · IVG@SZ Group."
+    },
+    {
+      "institution": "University of Electronic Science and Technology of China (UESTC)",
+      "degree": "B.S. in Electric and Electronic Engineering",
+      "period": "2020.09 – 2024.06",
+      "location": "Chengdu, China",
+      "description": "UESTC Outstanding Bachelor's Graduate (Top 5%)."
+    }
+  ]
+}

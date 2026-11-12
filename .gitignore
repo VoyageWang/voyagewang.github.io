@@ -1,13 +1,34 @@
-# Ignore the contents of the _site directory and other cache directories
-_site/
-.sass-cache/
+# Dependencies
+/node_modules
 
-# Ignore the directory for local files during development
-local/
+# Build outputs
+/dist
+/build
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Ingore files created by npm
-node_modules
-package-lock.json
+# Cache
+.npm
+.yarn-cache
+.pnpm-store
+.vite/
+.eslintcache
+.cache
+.wrangler/
+*.cache
+.idea
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db

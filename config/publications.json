@@ -1,0 +1,166 @@
+[
+  {
+    "id": "samosa",
+    "image": "assets/publications/samosa.jpg",
+    "title": "SAMOSA: Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking",
+    "abstract": "Traditional visual object tracking (VOT) methods typically rely on task-specific supervised training, limiting their generalization to unseen objects and challenging scenarios with distractors, occlusion, and nonlinear motion. Recent vision foundation models, exemplified by SAM 2, learn strong video understanding priors from large-scale pretraining and offer a promising foundation for building more robust and generalizable trackers. However, directly applying SAM 2 to VOT remains suboptimal, as it does not explicitly model target motion dynamics or enforce geometric and semantic consistency across frames, both of which are essential for reliable tracking. To address this issue, we propose SAMOSA, a new tracking framework that adapts SAM 2 to complex VOT scenarios by explicitly leveraging motion, geometry, and semantic cues. Specifically, we introduce a lightweight nonlinear motion predictor to model target dynamics and guide mask selection as well as memory filtering. We further exploit semantic cues to detect target shifts and recover from tracking failures, while geometric cues are incorporated as structural constraints to improve tracking stability. In this way, SAMOSA bridges the gap between the implicit video understanding prior of SAM 2 and explicit tracking-oriented modeling. Extensive experiments show that SAMOSA consistently outperforms state-of-the-art SAM 2--based approaches on general benchmarks, demonstrates stronger generalization than supervised VOT methods, and achieves substantial gains on anti-UAV datasets, which typify complex nonlinear motion scenarios. Our code is available at https://github.com/DurYi/SAMOSA.",
+    "authors": [
+      {
+        "text": "Deyi Zhu*, "
+      },
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Yong Liu, Yansong Tang, Bingyao Yu, Jiwen Lu, Jie Zhou"
+      }
+    ],
+    "venue": "arXiv '26",
+    "venueType": "preprint",
+    "tags": [
+      "Visual Object Tracking",
+      "SAM 2",
+      "Anti-UAV"
+    ],
+    "link": "https://arxiv.org/abs/2605.22538",
+    "pdfUrl": "https://arxiv.org/pdf/2605.22538",
+    "code": "https://github.com/DurYi/SAMOSA",
+    "citation": "D. Zhu, Y. Wang, Y. Liu, Y. Tang, B. Yu, J. Lu, and J. Zhou, “SAMOSA: Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking,” arXiv preprint arXiv:2605.22538, 2026."
+  },
+  {
+    "id": "embed-rl",
+    "image": "assets/publications/embed-rl.jpg",
+    "title": "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
+    "abstract": "Leveraging Multimodal Large Language Models (MLLMs) has become pivotal for advancing Universal Multimodal Embeddings (UME) in addressing diverse cross-modal tasks. Recent studies demonstrate that incorporating generative Chain-of-Thought (CoT) reasoning can substantially enhance task-specific representations compared to discriminative methods. However, the generated reasoning CoTs of existing generative embedding methods are limited to the textual analysis of queries and are irrelevant to the retrieval of the targets. To address these limitations, we propose a reasoning-driven UME framework that integrates Embedder-Guided Reinforcement Learning (EG-RL) to optimize the Reasoner to produce evidential Traceability CoT (T-CoT). Our key contributions are threefold: (1) We design an EG-RL framework where the Embedder provides explicit supervision to the Reasoner, ensuring the generated CoT traces are aligned with embedding tasks. (2) We introduce T-CoT, which extracts critical multimodal cues to focus on retrieval-relevant elements and provides multimodal inputs for the Embedder. (3) With limited computational resources, our framework outperforms the pioneering embedding model on both MMEB-V2 and UVRB benchmarks. The integration of multimodal evidence in structured reasoning, paired with retrieval-oriented alignment, effectively strengthens cross-modal semantic consistency and boosts the fine-grained matching capability of the model as well as the generalization across complex scenarios. Our work demonstrates that targeted reasoning optimization can significantly improve multimodal embedding quality, providing a practical and efficient solution for reasoning-driven UME development.",
+    "authors": [
+      {
+        "text": "Haonan Jiang*, "
+      },
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Yongjie Zhu, Xin Lu, Wenyu Qin, Meng Wang, Pengfei Wan, Yansong Tang"
+      }
+    ],
+    "venue": "arXiv '26",
+    "venueType": "preprint",
+    "tags": [
+      "Multimodal Embedding",
+      "Reinforcement Learning",
+      "Chain-of-Thought"
+    ],
+    "link": "https://arxiv.org/abs/2602.13823",
+    "pdfUrl": "https://arxiv.org/pdf/2602.13823",
+    "code": "https://github.com/ZoengHN/Embed-RL",
+    "citation": "H. Jiang, Y. Wang, Y. Zhu, X. Lu, W. Qin, M. Wang, P. Wan, and Y. Tang, “Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings,” arXiv preprint arXiv:2602.13823, 2026."
+  },
+  {
+    "id": "vg-refiner",
+    "image": "assets/publications/vg-refiner.png",
+    "title": "VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning",
+    "abstract": "Tool-integrated visual reasoning (TiVR) has demonstrated great potential in enhancing multimodal problem-solving. However, existing TiVR paradigms mainly focus on integrating various visual tools through reinforcement learning, while neglecting to design effective response mechanisms for handling unreliable or erroneous tool outputs. This limitation is particularly pronounced in referring and grounding tasks, where inaccurate detection tool predictions often mislead TiVR models into generating hallucinated reasoning. To address this issue, we propose the VG-Refiner, the first framework aiming at the tool-refined referring grounded reasoning. Technically, we introduce a two-stage think-rethink mechanism that enables the model to explicitly analyze and respond to tool feedback, along with a refinement reward that encourages effective correction in response to poor tool results. In addition, we propose two new metrics and establish fair evaluation protocols to systematically measure the refinement ability of current models. We adopt a small amount of task-specific data to enhance the refinement capability of VG-Refiner, achieving a significant improvement in accuracy and correction ability on referring and reasoning grounding benchmarks while preserving the general capabilities of the pretrained model.",
+    "authors": [
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Wenlong Liu, Jingxuan Niu, Haoji Zhang, Yansong Tang"
+      }
+    ],
+    "venue": "arXiv '25",
+    "venueType": "preprint",
+    "tags": [
+      "Visual Grounding",
+      "Agentic Reinforcement Learning",
+      "Tool Use"
+    ],
+    "link": "https://arxiv.org/abs/2512.06373",
+    "pdfUrl": "https://arxiv.org/pdf/2512.06373",
+    "code": "https://github.com/VoyageWang/VG-Refiner",
+    "citation": "Y. Wang, W. Liu, J. Niu, H. Zhang, and Y. Tang, “VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning,” arXiv preprint arXiv:2512.06373, 2025."
+  },
+  {
+    "id": "sam2-love",
+    "image": "assets/publications/sam2love.jpg",
+    "title": "SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes",
+    "abstract": "Reference Audio-Visual Segmentation (Ref-AVS) aims to provide a pixel-wise scene understanding in Language-aided Audio-Visual Scenes (LAVS). This task requires the model to continuously segment objects referred to by text and audio from a video. Previous dual-modality methods always fail due to the lack of a third modality and the existing triple-modality method struggles with spatio-temporal consistency, leading to the target shift of different frames. In this work, we introduce a novel framework, termed SAM2-LOVE, which integrates textual, audio, and visual representations into a learnable token to prompt and align SAM2 for achieving Ref-AVS in the LAVS. Technically, our approach includes a multimodal fusion module aimed at improving multimodal understanding of SAM2, as well as token propagation and accumulation strategies designed to enhance spatio-temporal consistency without forgetting historical information. We conducted extensive experiments to demonstrate that SAM2-LOVE outperforms the SOTA by 8.5\\% in $\\mathcal{J\\&F}$ on the Ref-AVS benchmark and showcase the simplicity and effectiveness of the components. Our code will be available here.",
+    "authors": [
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Haoran Xu*, Yong Liu, Jiaze Li, Yansong Tang"
+      }
+    ],
+    "venue": "CVPR '25",
+    "venueType": "conference",
+    "tags": [
+      "Referring Audio-Visual Segmentation",
+      "SAM 2",
+      "Multimodal Learning"
+    ],
+    "link": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_SAM2-LOVE_Segment_Anything_Model_2_in_Language-aided_Audio-Visual_Scenes_CVPR_2025_paper.pdf",
+    "pdfUrl": "https://arxiv.org/pdf/2506.01558",
+    "code": "https://github.com/VoyageWang/SAM2LOVE",
+    "citation": "Y. Wang, H. Xu, Y. Liu, J. Li, and Y. Tang, “SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2025."
+  },
+  {
+    "id": "iterprime",
+    "image": "assets/publications/iterprime.png",
+    "title": "IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis",
+    "abstract": "Zero-shot Referring Image Segmentation (RIS) identifies the instance mask that best aligns with a specified referring expression without training and fine-tuning, significantly reducing the labor-intensive annotation process. Despite achieving commendable results, previous CLIP-based models have a critical drawback: the models exhibit a notable reduction in their capacity to discern relative spatial relationships of objects. This is because they generate all possible masks on an image and evaluate each masked region for similarity to the given expression, often resulting in decreased sensitivity to direct positional clues in text inputs. Moreover, most methods have weak abilities to manage relationships between primary words and their contexts, causing confusion and reduced accuracy in identifying the correct target region. To address these challenges, we propose IteRPrimE (Iterative Grad-CAM Refinement and Primary word Emphasis), which leverages a saliency heatmap through Grad-CAM from a Vision-Language Pre-trained (VLP) model for image-text matching. An iterative Grad-CAM refinement strategy is introduced to progressively enhance the model's focus on the target region and overcome positional insensitivity, creating a self-correcting effect. Additionally, we design the Primary Word Emphasis module to help the model handle complex semantic relations, enhancing its ability to attend to the intended object. Extensive experiments conducted on the RefCOCO/+/g, and PhraseCut benchmarks demonstrate that IteRPrimE outperforms previous state-of-the-art zero-shot methods, particularly excelling in out-of-domain scenarios.",
+    "authors": [
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Jingchen Ni*, Yong Liu, Chun Yuan, Yansong Tang"
+      }
+    ],
+    "venue": "AAAI '25",
+    "venueType": "conference",
+    "tags": [
+      "Referring Image Segmentation",
+      "Zero-shot",
+      "Grad-CAM"
+    ],
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/32880",
+    "pdfUrl": "https://arxiv.org/pdf/2503.00936",
+    "code": "https://github.com/VoyageWang/IteRPrimE",
+    "citation": "Y. Wang, J. Ni, Y. Liu, C. Yuan, and Y. Tang, “IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis,” in Proc. AAAI Conf. Artif. Intell. (AAAI), 2025."
+  },
+  {
+    "id": "dmrnet",
+    "image": "assets/publications/dmrnet.jpg",
+    "title": "Robust Multimodal Learning via Representation Decoupling",
+    "abstract": "Multimodal learning robust to missing modality has attracted increasing attention due to its practicality. Existing methods tend to address it by learning a common subspace representation for different modality combinations. However, we reveal that they are sub-optimal due to their implicit constraint on intra-class representation. Specifically, the sample with different modalities within the same class will be forced to learn representations in the same direction. This hinders the model from capturing modality-specific information, resulting in insufficient learning. To this end, we propose a novel Decoupled Multimodal Representation Network (DMRNet) to assist robust multimodal learning. Specifically, DMRNet models the input from different modality combinations as a probabilistic distribution instead of a fixed point in the latent space, and samples embeddings from the distribution for the prediction module to calculate the task loss. As a result, the direction constraint from the loss minimization is blocked by the sampled representation. This relaxes the constraint on the inference representation and enables the model to capture the specific information for different modality combinations. Furthermore, we introduce a hard combination regularizer to prevent DMRNet from unbalanced training by guiding it to pay more attention to hard modality combinations. Finally, extensive experiments on multimodal classification and segmentation tasks demonstrate that the proposed DMRNet outperforms the state-of-the-art significantly.",
+    "authors": [
+      {
+        "text": "Shicai Wei, Yang Luo, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Chunbo Luo"
+      }
+    ],
+    "venue": "ECCV '24",
+    "venueType": "conference",
+    "tags": [
+      "Multimodal Learning",
+      "Missing Modality",
+      "Representation Learning"
+    ],
+    "link": "https://arxiv.org/pdf/2407.04458",
+    "code": "https://github.com/shicaiwei123/ECCV2024-DMRNet",
+    "citation": "S. Wei, Y. Luo, Y. Wang, and C. Luo, “Robust Multimodal Learning via Representation Decoupling,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2024."
+  }
+]
