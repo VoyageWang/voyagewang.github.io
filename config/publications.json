@@ -216,7 +216,7 @@
   },
   {
     "id": "igarss-2024",
-    "image": "assets/publications/igarss24.svg",
+    "image": "assets/publications/igarss24.png",
     "title": "Convolution Meets Transformer: Efficient Hybrid Transformer for Semantic Segmentation with Very High Resolution Imagery",
     "authors": [
       {
@@ -238,7 +238,7 @@
   },
   {
     "id": "igarss-2023",
-    "image": "assets/publications/igarss23.svg",
+    "image": "assets/publications/igarss23.png",
     "title": "Efficient Remote Sensing Transformer for Coastline Detection with Sentinel-2 Satellite Imagery",
     "authors": [
       {
