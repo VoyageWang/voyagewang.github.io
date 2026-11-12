@@ -593,3 +593,31 @@
 .publications-toggle.is-open svg {
     transform: rotate(180deg);
 }
+
+.publications-full-list {
+    order: 1;
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--theme-color-soft);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.publications-full-list:hover {
+    text-decoration: underline;
+}
+
+.content-shell #publications > .card-title {
+    flex-wrap: wrap;
+    row-gap: 0.2rem;
+}
+
+.publications-title-text {
+    white-space: nowrap;
+}
+
+.content-shell #publications > .card-title::after {
+    order: 2;
+}

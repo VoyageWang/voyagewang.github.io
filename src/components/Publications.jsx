@@ -3,7 +3,7 @@ import { AiOutlineCheck, AiOutlineCopy, AiOutlineFileText } from "react-icons/ai
 import { FaGithub } from "react-icons/fa";
 import { ChevronDown } from "lucide-react";
 import "../css/Publications.css";
-import { publications } from "../siteConfig";
+import { publications, scholarProfileUrl } from "../siteConfig";
 import PublicationPreview from "./PublicationPreview";
 import { fetchScholarCitations, resolveCitationCount } from "../utils/scholarCitations";
 
@@ -56,7 +56,7 @@ export default function Publications() {
           </span>
         ))}
       </div>
-      <div className="card-title">Publications</div>
+      <div className="card-title"><span className="publications-title-text">Selected Publications</span>{scholarProfileUrl && <a className="publications-full-list" href={scholarProfileUrl} target="_blank" rel="noreferrer">[Full List]</a>}</div>
       <p className="publications-note">* Equal contribution{foldedCount > 0 && !showAll ? "; papers where I am a co-author are folded below" : ""}.</p>
       <div className="publications-list">
         {publications.filter((paper) => showAll || !paper.folded).map((paper) => {
