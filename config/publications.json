@@ -1,36 +1,5 @@
 [
   {
-    "id": "lotep",
-    "image": "assets/publications/lotep.png",
-    "title": "Going Deep: Deep Visual Prompting with LoTeP",
-    "abstract": "Visual Prompting (VP) has emerged as a parameter-efficient paradigm for adapting pre-trained models to downstream tasks. While existing VP methods predominantly operate in the input space, extending VP to deep activations confronts a fundamental Capacity-Integrity Paradox: increasing prompt capacity for better task adaptation inevitably triggers a parameter explosion and severe semantic disruption, where deep prompts override pre-trained representations. To strike a delicate tradeoff within this Capacity-Integrity Paradox, we conducted a series of preliminary experiments. Interestingly, these experiments reveal a strong correlation among prompt channels: applying shared prompts across grouped channels not only drastically reduces parameters but also improves performance. Motivated by this structural correlation and the need to systematically master the tradeoff, we propose Low-Rank Tensor Visual Prompting (LoTeP). By modeling deep prompts as low-rank tensors, LoTeP elegantly achieves extreme parameter compression. Concurrently, it enables precise control over the prompt capacity via layer-wise rank decaying, effectively preserving the semantic integrity of deep activations. Extensive experiments demonstrate the superior generality, effectiveness, and efficiency of our approach. Overall, LoTeP consistently outperforms the state-of-the-art LoR-VP by an average margin of over 2.5% across all evaluated scenarios, while adding less than 0.1% of the backbone parameters over the LoR-VP baseline.",
-    "authors": [
-      {
-        "text": "Zijie Zhao*, "
-      },
-      {
-        "text": "Yuji Wang*",
-        "strong": true
-      },
-      {
-        "text": ", Yanru Wu, Haohua Wang, Enming Zhang, Wai Kin Victor Chan, Yang Li"
-      }
-    ],
-    "venue": "ECCV '26",
-    "venueType": "conference",
-    "tags": [
-      "Visual Prompting",
-      "Tensor Decomposition",
-      "Parameter-Efficient Tuning"
-    ],
-    "link": "/ECCV_2026_cr_1-3.pdf",
-    "citation": "Z. Zhao, Y. Wang, Y. Wu, H. Wang, E. Zhang, W. K. V. Chan, and Y. Li, “Going Deep: Deep Visual Prompting with LoTeP,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026, pp. 19–36.",
-    "authorTag": {
-      "label": "Co-first author",
-      "type": "cofirst"
-    }
-  },
-  {
     "id": "embed-rl",
     "image": "assets/publications/embed-rl.jpg",
     "title": "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
@@ -209,6 +178,37 @@
     "pdfUrl": "https://arxiv.org/pdf/2503.00936",
     "code": "https://github.com/VoyageWang/IteRPrimE",
     "citation": "Y. Wang, J. Ni, Y. Liu, C. Yuan, and Y. Tang, “IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis,” in Proc. AAAI Conf. Artif. Intell. (AAAI), 2025.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
+  },
+  {
+    "id": "lotep",
+    "image": "assets/publications/lotep.png",
+    "title": "Going Deep: Deep Visual Prompting with LoTeP",
+    "abstract": "Visual Prompting (VP) has emerged as a parameter-efficient paradigm for adapting pre-trained models to downstream tasks. While existing VP methods predominantly operate in the input space, extending VP to deep activations confronts a fundamental Capacity-Integrity Paradox: increasing prompt capacity for better task adaptation inevitably triggers a parameter explosion and severe semantic disruption, where deep prompts override pre-trained representations. To strike a delicate tradeoff within this Capacity-Integrity Paradox, we conducted a series of preliminary experiments. Interestingly, these experiments reveal a strong correlation among prompt channels: applying shared prompts across grouped channels not only drastically reduces parameters but also improves performance. Motivated by this structural correlation and the need to systematically master the tradeoff, we propose Low-Rank Tensor Visual Prompting (LoTeP). By modeling deep prompts as low-rank tensors, LoTeP elegantly achieves extreme parameter compression. Concurrently, it enables precise control over the prompt capacity via layer-wise rank decaying, effectively preserving the semantic integrity of deep activations. Extensive experiments demonstrate the superior generality, effectiveness, and efficiency of our approach. Overall, LoTeP consistently outperforms the state-of-the-art LoR-VP by an average margin of over 2.5% across all evaluated scenarios, while adding less than 0.1% of the backbone parameters over the LoR-VP baseline.",
+    "authors": [
+      {
+        "text": "Zijie Zhao*, "
+      },
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Yanru Wu, Haohua Wang, Enming Zhang, Wai Kin Victor Chan, Yang Li"
+      }
+    ],
+    "venue": "ECCV '26",
+    "venueType": "conference",
+    "tags": [
+      "Visual Prompting",
+      "Tensor Decomposition",
+      "Parameter-Efficient Tuning"
+    ],
+    "link": "/ECCV_2026_cr_1-3.pdf",
+    "citation": "Z. Zhao, Y. Wang, Y. Wu, H. Wang, E. Zhang, W. K. V. Chan, and Y. Li, “Going Deep: Deep Visual Prompting with LoTeP,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026, pp. 19–36.",
     "authorTag": {
       "label": "Co-first author",
       "type": "cofirst"
