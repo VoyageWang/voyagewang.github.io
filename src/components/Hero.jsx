@@ -5,7 +5,7 @@ import { FaGoogleScholar } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { RiInstagramFill } from "react-icons/ri";
 import { TbBrandOpenai } from "react-icons/tb";
-import { Camera, GraduationCap, ScanEye, Sparkles } from "lucide-react";
+import { BriefcaseBusiness, Camera, GraduationCap, ScanEye, Sparkles } from "lucide-react";
 import { hero } from "../siteConfig";
 const loadResumePreview = () => import("./ResumePreview");
 const ResumePreview = lazy(loadResumePreview);
@@ -16,6 +16,7 @@ const descriptionIcons = {
   camera: Camera,
   graduation: GraduationCap,
   scan: ScanEye,
+  briefcase: BriefcaseBusiness,
 };
 
 const socialIcons = {

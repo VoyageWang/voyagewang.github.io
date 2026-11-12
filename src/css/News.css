@@ -1,6 +1,6 @@
 .news-list {
     margin: 0;
-    max-height: 6em; /* Limit the visible list height */
+    max-height: 10.5rem; /* Limit the visible list height */
     overflow-y: auto; /* Scroll longer lists */
     /*border: none;*/
     padding: 6px 12px ;
@@ -25,8 +25,8 @@
     display: grid;
     grid-template-columns: 80px 1fr; /* Date on the left, content on the right */
 
-    padding: 2px 0;
-    align-items: center;
+    padding: 5px 0;
+    align-items: baseline;
     font-size: 0.8rem;
     border-bottom: 1px dashed #acacac;
 }
@@ -37,7 +37,8 @@
 
 .news-time {
     font-weight: 700;
-    color: var(--theme-color-pale);
+    color: var(--theme-color-soft);
+    font-variant-numeric: tabular-nums;
 }
 
 .news-content {

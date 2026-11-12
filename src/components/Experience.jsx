@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { ArrowUpRight } from "lucide-react";
 import "../css/Experience.css";
 import { experiences } from "../siteConfig";
 
@@ -129,7 +130,7 @@ export default function Experience() {
       <div className="card-title">Experience</div>
       <div className="timeline-container" ref={timelineRef}>
         {experiences.map((experience) => (
-          <article className="timeline-item" key={experience.organization}>
+          <article className={`timeline-item${experience.featured ? " is-featured" : ""}`} key={experience.organization}>
             <div className="timeline-year">{experience.period.slice(0, 4)}</div>
             <div className="timeline-content">
               <div className="org-logo-container">
@@ -138,7 +139,7 @@ export default function Experience() {
               <div className="exp-container">
                 <div className="timeline-header">
                   <div className="exp-organization">
-                    <div className="exp-organization-name">{experience.organization}</div>
+                    <div className="exp-organization-name">{experience.organization}{experience.period.endsWith("Present") && <span className="exp-badge">Current</span>}</div>
                     <div className="exp-role">{experience.role}</div>
                   </div>
                   <div className="exp-period">
@@ -153,6 +154,23 @@ export default function Experience() {
                     </li>
                   ))}
                 </ul>
+                {experience.highlights.length > 0 && (
+                  <div className="exp-highlights">
+                    {experience.highlights.map((highlight) => (
+                      <figure className="exp-highlight" key={highlight.title}>
+                        <figcaption>
+                          <div className="exp-highlight-title">{highlight.title}</div>
+                          <p>{highlight.text}</p>
+                          {highlight.quote && <blockquote lang="zh-CN">{highlight.quote}</blockquote>}
+                          <a className="exp-highlight-link" href={highlight.link} target="_blank" rel="noreferrer">{highlight.linkLabel}<ArrowUpRight aria-hidden="true" /></a>
+                        </figcaption>
+                        <a className="exp-highlight-media" href={highlight.link} target="_blank" rel="noreferrer">
+                          <img src={highlight.image} alt={highlight.imageAlt || highlight.title} loading="lazy" />
+                        </a>
+                      </figure>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           </article>

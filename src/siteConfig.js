@@ -64,6 +64,7 @@ export const publications = publicationItems.map((publication) => ({
 export const experiences = experienceItems.map((experience) => ({
   ...experience,
   logo: resolveAsset(experience.logo),
+  highlights: (experience.highlights || []).map((highlight) => ({ ...highlight, image: resolveAsset(highlight.image) })),
 }));
 
 export const projects = projectItems.map((project) => ({

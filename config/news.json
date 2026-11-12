@@ -1,31 +1,46 @@
 [
   {
+    "date": "2026.07",
+    "segments": [
+      {
+        "text": "Five papers accepted to "
+      },
+      {
+        "text": "ECCV 2026",
+        "href": "https://eccv.ecva.net/"
+      },
+      {
+        "text": ": LoTeP (co-first), Embed-RL (co-first), SAFE-Pruner, TAIHRI, and DDAVS."
+      }
+    ]
+  },
+  {
     "date": "2026.05",
     "segments": [
       {
-        "text": "One paper on SAM 2-based visual object tracking (SAMOSA) is available on "
+        "text": "SAMOSA, SAM 2-based nonlinear visual object tracking, is available on "
       },
       {
         "text": "arXiv",
         "href": "https://arxiv.org/abs/2605.22538"
       },
       {
-        "text": "."
+        "text": ", now accepted to IEEE TCSVT."
       }
     ]
   },
   {
-    "date": "2026.02",
+    "date": "2026.03",
     "segments": [
       {
-        "text": "One paper on reasoning-driven multimodal embeddings (Embed-RL) is available on "
+        "text": "Joined "
       },
       {
-        "text": "arXiv",
-        "href": "https://arxiv.org/abs/2602.13823"
+        "text": "Baidu ERNIE",
+        "href": "https://ernie.baidu.com/"
       },
       {
-        "text": "."
+        "text": " as a research intern, working on pretraining long-document data and the knowledge work agent."
       }
     ]
   },
@@ -33,7 +48,14 @@
     "date": "2025.12",
     "segments": [
       {
-        "text": "One paper on tool-refined visual grounding (VG-Refiner) is available on "
+        "text": "Joined "
+      },
+      {
+        "text": "Kuaishou Kling AI",
+        "strong": true
+      },
+      {
+        "text": " as a research intern; VG-Refiner is available on "
       },
       {
         "text": "arXiv",
@@ -48,7 +70,7 @@
     "date": "2025.02",
     "segments": [
       {
-        "text": "One paper on triple-modality referring segmentation is accepted to "
+        "text": "SAM2-LOVE, triple-modality referring segmentation, is accepted to "
       },
       {
         "text": "CVPR 2025",
@@ -63,7 +85,7 @@
     "date": "2024.12",
     "segments": [
       {
-        "text": "One paper on referring image segmentation is accepted to "
+        "text": "IteRPrimE, zero-shot referring image segmentation, is accepted to "
       },
       {
         "text": "AAAI 2025",
@@ -78,7 +100,7 @@
     "date": "2024.07",
     "segments": [
       {
-        "text": "One paper on multimodal learning is accepted to "
+        "text": "DMRNet, robust multimodal learning, is accepted to "
       },
       {
         "text": "ECCV 2024",

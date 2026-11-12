@@ -1,32 +1,34 @@
 [
   {
-    "id": "samosa",
-    "image": "assets/publications/samosa.jpg",
-    "title": "SAMOSA: Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking",
-    "abstract": "Traditional visual object tracking (VOT) methods typically rely on task-specific supervised training, limiting their generalization to unseen objects and challenging scenarios with distractors, occlusion, and nonlinear motion. Recent vision foundation models, exemplified by SAM 2, learn strong video understanding priors from large-scale pretraining and offer a promising foundation for building more robust and generalizable trackers. However, directly applying SAM 2 to VOT remains suboptimal, as it does not explicitly model target motion dynamics or enforce geometric and semantic consistency across frames, both of which are essential for reliable tracking. To address this issue, we propose SAMOSA, a new tracking framework that adapts SAM 2 to complex VOT scenarios by explicitly leveraging motion, geometry, and semantic cues. Specifically, we introduce a lightweight nonlinear motion predictor to model target dynamics and guide mask selection as well as memory filtering. We further exploit semantic cues to detect target shifts and recover from tracking failures, while geometric cues are incorporated as structural constraints to improve tracking stability. In this way, SAMOSA bridges the gap between the implicit video understanding prior of SAM 2 and explicit tracking-oriented modeling. Extensive experiments show that SAMOSA consistently outperforms state-of-the-art SAM 2--based approaches on general benchmarks, demonstrates stronger generalization than supervised VOT methods, and achieves substantial gains on anti-UAV datasets, which typify complex nonlinear motion scenarios. Our code is available at https://github.com/DurYi/SAMOSA.",
+    "id": "lotep",
+    "image": "assets/publications/lotep.png",
+    "title": "Going Deep: Deep Visual Prompting with LoTeP",
+    "abstract": "Visual Prompting (VP) has emerged as a parameter-efficient paradigm for adapting pre-trained models to downstream tasks. While existing VP methods predominantly operate in the input space, extending VP to deep activations confronts a fundamental Capacity-Integrity Paradox: increasing prompt capacity for better task adaptation inevitably triggers a parameter explosion and severe semantic disruption, where deep prompts override pre-trained representations. To strike a delicate tradeoff within this Capacity-Integrity Paradox, we conducted a series of preliminary experiments. Interestingly, these experiments reveal a strong correlation among prompt channels: applying shared prompts across grouped channels not only drastically reduces parameters but also improves performance. Motivated by this structural correlation and the need to systematically master the tradeoff, we propose Low-Rank Tensor Visual Prompting (LoTeP). By modeling deep prompts as low-rank tensors, LoTeP elegantly achieves extreme parameter compression. Concurrently, it enables precise control over the prompt capacity via layer-wise rank decaying, effectively preserving the semantic integrity of deep activations. Extensive experiments demonstrate the superior generality, effectiveness, and efficiency of our approach. Overall, LoTeP consistently outperforms the state-of-the-art LoR-VP by an average margin of over 2.5% across all evaluated scenarios, while adding less than 0.1% of the backbone parameters over the LoR-VP baseline.",
     "authors": [
       {
-        "text": "Deyi Zhu*, "
+        "text": "Zijie Zhao*, "
       },
       {
         "text": "Yuji Wang*",
         "strong": true
       },
       {
-        "text": ", Yong Liu, Yansong Tang, Bingyao Yu, Jiwen Lu, Jie Zhou"
+        "text": ", Yanru Wu, Haohua Wang, Enming Zhang, Wai Kin Victor Chan, Yang Li"
       }
     ],
-    "venue": "arXiv '26",
-    "venueType": "preprint",
+    "venue": "ECCV '26",
+    "venueType": "conference",
     "tags": [
-      "Visual Object Tracking",
-      "SAM 2",
-      "Anti-UAV"
+      "Visual Prompting",
+      "Tensor Decomposition",
+      "Parameter-Efficient Tuning"
     ],
-    "link": "https://arxiv.org/abs/2605.22538",
-    "pdfUrl": "https://arxiv.org/pdf/2605.22538",
-    "code": "https://github.com/DurYi/SAMOSA",
-    "citation": "D. Zhu, Y. Wang, Y. Liu, Y. Tang, B. Yu, J. Lu, and J. Zhou, “SAMOSA: Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking,” arXiv preprint arXiv:2605.22538, 2026."
+    "link": "/ECCV_2026_cr_1-3.pdf",
+    "citation": "Z. Zhao, Y. Wang, Y. Wu, H. Wang, E. Zhang, W. K. V. Chan, and Y. Li, “Going Deep: Deep Visual Prompting with LoTeP,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026, pp. 19–36.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
   },
   {
     "id": "embed-rl",
@@ -45,8 +47,8 @@
         "text": ", Yongjie Zhu, Xin Lu, Wenyu Qin, Meng Wang, Pengfei Wan, Yansong Tang"
       }
     ],
-    "venue": "arXiv '26",
-    "venueType": "preprint",
+    "venue": "ECCV '26",
+    "venueType": "conference",
     "tags": [
       "Multimodal Embedding",
       "Reinforcement Learning",
@@ -55,7 +57,160 @@
     "link": "https://arxiv.org/abs/2602.13823",
     "pdfUrl": "https://arxiv.org/pdf/2602.13823",
     "code": "https://github.com/ZoengHN/Embed-RL",
-    "citation": "H. Jiang, Y. Wang, Y. Zhu, X. Lu, W. Qin, M. Wang, P. Wan, and Y. Tang, “Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings,” arXiv preprint arXiv:2602.13823, 2026."
+    "citation": "H. Jiang, Y. Wang, Y. Zhu, X. Lu, W. Qin, M. Wang, P. Wan, and Y. Tang, “Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
+  },
+  {
+    "id": "samosa",
+    "image": "assets/publications/samosa.jpg",
+    "title": "SAMOSA: Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking",
+    "abstract": "Traditional visual object tracking (VOT) methods typically rely on task-specific supervised training, limiting their generalization to unseen objects and challenging scenarios with distractors, occlusion, and nonlinear motion. Recent vision foundation models, exemplified by SAM 2, learn strong video understanding priors from large-scale pretraining and offer a promising foundation for building more robust and generalizable trackers. However, directly applying SAM 2 to VOT remains suboptimal, as it does not explicitly model target motion dynamics or enforce geometric and semantic consistency across frames, both of which are essential for reliable tracking. To address this issue, we propose SAMOSA, a new tracking framework that adapts SAM 2 to complex VOT scenarios by explicitly leveraging motion, geometry, and semantic cues. Specifically, we introduce a lightweight nonlinear motion predictor to model target dynamics and guide mask selection as well as memory filtering. We further exploit semantic cues to detect target shifts and recover from tracking failures, while geometric cues are incorporated as structural constraints to improve tracking stability. In this way, SAMOSA bridges the gap between the implicit video understanding prior of SAM 2 and explicit tracking-oriented modeling. Extensive experiments show that SAMOSA consistently outperforms state-of-the-art SAM 2--based approaches on general benchmarks, demonstrates stronger generalization than supervised VOT methods, and achieves substantial gains on anti-UAV datasets, which typify complex nonlinear motion scenarios. Our code is available at https://github.com/DurYi/SAMOSA.",
+    "authors": [
+      {
+        "text": "Deyi Zhu*, "
+      },
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Yong Liu, Yansong Tang, Bingyao Yu, Jiwen Lu, Jie Zhou"
+      }
+    ],
+    "venue": "TCSVT '26",
+    "venueType": "journal",
+    "tags": [
+      "Visual Object Tracking",
+      "SAM 2",
+      "Anti-UAV"
+    ],
+    "link": "https://arxiv.org/abs/2605.22538",
+    "pdfUrl": "https://arxiv.org/pdf/2605.22538",
+    "code": "https://github.com/DurYi/SAMOSA",
+    "citation": "D. Zhu, Y. Wang, Y. Liu, Y. Tang, B. Yu, J. Lu, and J. Zhou, “SAMOSA: Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking,” IEEE Trans. Circuits Syst. Video Technol. (TCSVT), 2026.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
+  },
+  {
+    "id": "opera",
+    "image": "assets/publications/opera.jpg",
+    "title": "OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation",
+    "abstract": "Referring video segmentation with heterogeneous multimodal queries---spanning text, audio, and reference images---demands both robust cross-modal understanding and precise spatio-temporal reasoning. We propose OPERA (Omnimodal Progressive spatio-tEmporal Reasoning Agent), a unified reasoning agent built on a single MLLM that performs dual-axis progressive reasoning via three specialized stages. Along the temporal axis, a Temporal Reasoning Agent narrows the frame search space through coarse-to-fine filtering to identify the most informative key frame. Along the spatial axis, a Distillation Agent establishes what to locate via cross-modal semantic distillation, and a Grounding Agent enhanced with GRPO determines where the target appears, with dense mask propagation completing the pixel-level output. OPERA sets a new state of the art on OmniAVS and Ref-AVS and transfers zero-shot to standard referring video segmentation benchmarks.",
+    "authors": [
+      {
+        "text": "Jingchen Ni*, "
+      },
+      {
+        "text": "Yuji Wang*",
+        "strong": true
+      },
+      {
+        "text": ", Shannan Yan*, Haoru Li, Sitong Chen, Chun Yuan"
+      }
+    ],
+    "venue": "arXiv '26",
+    "venueType": "preprint",
+    "tags": [
+      "Referring Video Segmentation",
+      "Omnimodal Agent",
+      "Spatio-Temporal Reasoning"
+    ],
+    "link": "https://arxiv.org/abs/2609.33338",
+    "pdfUrl": "https://arxiv.org/pdf/2609.33338",
+    "citation": "J. Ni, Y. Wang, S. Yan, H. Li, S. Chen, and C. Yuan, “OPERA: A Unified Omnimodal Progressive Spatio-Temporal Reasoning Agent for Referring Video Segmentation,” arXiv preprint arXiv:2609.33338, 2026.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
+  },
+  {
+    "id": "safe-pruner",
+    "image": "assets/publications/safe-pruner.png",
+    "title": "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation",
+    "abstract": "Real-time inference of vision-language-action (VLA) models is essential for robotic control. While visual token pruning has shown strong potential for accelerating inference, most existing methods mainly base pruning decisions on shallow-layer cues and risk discarding visual information required by deep layers. To address this issue, we propose SAFE-Pruner, a plug-and-play pruning framework that incorporates attention cues of future layers into pruning decisions. Specifically, we identify semantic attention consistency, the tendency that VLA models concentrate their attention probability mass on the same semantic entity across control timesteps. Based on this observation, we design a forward-looking strategy to forecast the token saliency in deep layers, which prevents the premature removal of critical tokens and leads to more stable acceleration. We further introduce a reference timestep refresh strategy that triggers updates upon attention shifts, thereby improving forecasting accuracy and pruning reliability. Extensive experiments across diverse evaluation settings demonstrate that our method achieves up to 1.89x speedup with a minimal degradation in success rate of less than 1.5%, while outperforming state-of-the-art methods by up to 1.9%.",
+    "authors": [
+      {
+        "text": "Shilin Ma, Chubin Zhang, Changyuan Wang, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Yue Wu, Zixuan Wang, Jingqi Tian, Zheng Zhu, Yansong Tang"
+      }
+    ],
+    "venue": "ECCV '26",
+    "venueType": "conference",
+    "tags": [
+      "Vision-Language-Action",
+      "Token Pruning",
+      "Efficient Inference"
+    ],
+    "link": "https://arxiv.org/abs/2605.29662",
+    "pdfUrl": "https://arxiv.org/pdf/2605.29662",
+    "citation": "S. Ma, C. Zhang, C. Wang, Y. Wang, Y. Wu, Z. Wang, J. Tian, Z. Zhu, and Y. Tang, “SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026."
+  },
+  {
+    "id": "taihri",
+    "image": "assets/publications/taihri.jpg",
+    "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
+    "abstract": "Accurate 3D human keypoints localization is a critical technology enabling robots to achieve natural and safe physical interaction with users. Conventional 3D human keypoints estimation methods primarily focus on the whole-body reconstruction quality relative to the root joint. However, in practical human-robot interaction (HRI) scenarios, robots are more concerned with the precise metric-scale spatial localization of task-relevant body parts under the egocentric camera 3D coordinate. We propose TAIHRI, the first Vision-Language Model (VLM) tailored for close-range HRI perception, capable of understanding users' motion commands and directing the robot's attention to the most task-relevant keypoints. By quantizing 3D keypoints into a finite interaction space, TAIHRI precisely localize the 3D spatial coordinates of critical body parts by 2D keypoint reasoning via next token prediction, and seamlessly adapt to downstream tasks such as natural language control or global space human mesh recovery. Experiments on egocentric interaction benchmarks demonstrate that TAIHRI achieves superior estimation accuracy for task-critical body parts. We believe TAIHRI opens new research avenues in the field of embodied human-robot interaction. Code is available at: https://github.com/Tencent/TAIHRI.",
+    "authors": [
+      {
+        "text": "Ao Li, Yonggen Ling, Yiyang Lin, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Yong Deng, Yansong Tang"
+      }
+    ],
+    "venue": "ECCV '26",
+    "venueType": "conference",
+    "tags": [
+      "Human-Robot Interaction",
+      "3D Keypoints",
+      "Vision-Language Model"
+    ],
+    "link": "https://arxiv.org/abs/2604.08921",
+    "pdfUrl": "https://arxiv.org/pdf/2604.08921",
+    "code": "https://github.com/Tencent/TAIHRI",
+    "citation": "A. Li, Y. Ling, Y. Lin, Y. Wang, Y. Deng, and Y. Tang, “TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026."
+  },
+  {
+    "id": "ddavs",
+    "image": "assets/publications/ddavs.jpg",
+    "title": "DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation",
+    "abstract": "Audio-Visual Segmentation (AVS) aims to localize sound-producing objects at the pixel level by integrating auditory and visual cues. However, existing methods often struggle with multi-source entanglement and audio-visual misalignment, leading to a dominance bias toward acoustically or visually salient objects (i.e., louder or larger ones) at the expense of subtler or co-occurring sources. To address these challenges, we propose DDAVS: Delayed Bidirectional Alignment via Disentangled Audio Semantics for Audio-Visual Segmentation. To mitigate multi-source entanglement, DDAVS employs learnable queries to extract audio semantics and anchor them within a structured semantic space derived from an audio prototype memory bank. This process is further optimized through contrastive learning to enhance discriminability and robustness. To alleviate audio-visual misalignment, DDAVS introduces dual cross attention with delayed modality interaction, improving the robustness of multimodal alignment. Extensive experiments on the AVS-Objects and VPO benchmarks demonstrate that DDAVS achieves state-of-the-art performance across single-source, multi-source, and multi-class multi-instance scenarios. These results validate the effectiveness and generalization ability of our framework under challenging real-world audio-visual segmentation conditions. Project page: https://trilarflagz.github.io/DDAVS-page/",
+    "authors": [
+      {
+        "text": "Jingqi Tian, Yiheng Du, Haoji Zhang, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang"
+      }
+    ],
+    "venue": "ECCV '26",
+    "venueType": "conference",
+    "tags": [
+      "Audio-Visual Segmentation",
+      "Multimodal Alignment"
+    ],
+    "link": "https://arxiv.org/abs/2512.20117",
+    "pdfUrl": "https://arxiv.org/pdf/2512.20117",
+    "citation": "J. Tian, Y. Du, H. Zhang, Y. Wang, I. N. Lee, X. Bai, T. Zhu, J. Niu, and Y. Tang, “DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026."
   },
   {
     "id": "vg-refiner",
@@ -107,7 +262,11 @@
     "link": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_SAM2-LOVE_Segment_Anything_Model_2_in_Language-aided_Audio-Visual_Scenes_CVPR_2025_paper.pdf",
     "pdfUrl": "https://arxiv.org/pdf/2506.01558",
     "code": "https://github.com/VoyageWang/SAM2LOVE",
-    "citation": "Y. Wang, H. Xu, Y. Liu, J. Li, and Y. Tang, “SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2025."
+    "citation": "Y. Wang, H. Xu, Y. Liu, J. Li, and Y. Tang, “SAM2-LOVE: Segment Anything Model 2 in Language-aided Audio-Visual Scenes,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2025.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
   },
   {
     "id": "iterprime",
@@ -133,7 +292,11 @@
     "link": "https://ojs.aaai.org/index.php/AAAI/article/view/32880",
     "pdfUrl": "https://arxiv.org/pdf/2503.00936",
     "code": "https://github.com/VoyageWang/IteRPrimE",
-    "citation": "Y. Wang, J. Ni, Y. Liu, C. Yuan, and Y. Tang, “IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis,” in Proc. AAAI Conf. Artif. Intell. (AAAI), 2025."
+    "citation": "Y. Wang, J. Ni, Y. Liu, C. Yuan, and Y. Tang, “IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis,” in Proc. AAAI Conf. Artif. Intell. (AAAI), 2025.",
+    "authorTag": {
+      "label": "Co-first author",
+      "type": "cofirst"
+    }
   },
   {
     "id": "dmrnet",
@@ -162,5 +325,49 @@
     "link": "https://arxiv.org/pdf/2407.04458",
     "code": "https://github.com/shicaiwei123/ECCV2024-DMRNet",
     "citation": "S. Wei, Y. Luo, Y. Wang, and C. Luo, “Robust Multimodal Learning via Representation Decoupling,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2024."
+  },
+  {
+    "id": "igarss-2024",
+    "image": "assets/publications/igarss24.svg",
+    "title": "Convolution Meets Transformer: Efficient Hybrid Transformer for Semantic Segmentation with Very High Resolution Imagery",
+    "authors": [
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Ruojun Zhao, Shicai Wei, Jingchen Ni, Meng Wu, Yang Luo, Chunbo Luo"
+      }
+    ],
+    "venue": "IGARSS '24",
+    "venueType": "conference",
+    "tags": [
+      "Remote Sensing",
+      "Semantic Segmentation"
+    ],
+    "link": "https://doi.org/10.1109/IGARSS53475.2024.10640608",
+    "citation": "Y. Wang, R. Zhao, S. Wei, J. Ni, M. Wu, Y. Luo, and C. Luo, “Convolution Meets Transformer: Efficient Hybrid Transformer for Semantic Segmentation with Very High Resolution Imagery,” in Proc. IEEE Int. Geosci. Remote Sens. Symp. (IGARSS), 2024, pp. 9688–9691."
+  },
+  {
+    "id": "igarss-2023",
+    "image": "assets/publications/igarss23.svg",
+    "title": "Efficient Remote Sensing Transformer for Coastline Detection with Sentinel-2 Satellite Imagery",
+    "authors": [
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Ruojun Zhao, Zijun Sun"
+      }
+    ],
+    "venue": "IGARSS '23",
+    "venueType": "conference",
+    "tags": [
+      "Remote Sensing",
+      "Coastline Detection"
+    ],
+    "link": "https://doi.org/10.1109/IGARSS52108.2023.10282303",
+    "citation": "Y. Wang, R. Zhao, and Z. Sun, “Efficient Remote Sensing Transformer for Coastline Detection with Sentinel-2 Satellite Imagery,” in Proc. IEEE Int. Geosci. Remote Sens. Symp. (IGARSS), 2023, pp. 5439–5442."
   }
 ]

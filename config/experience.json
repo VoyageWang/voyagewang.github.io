@@ -1,5 +1,42 @@
 [
   {
+    "organization": "Baidu ERNIE",
+    "logo": "assets/experience/ernie.svg",
+    "period": "2026.03 — Present",
+    "location": "China",
+    "role": "Research Intern, ERNIE Team",
+    "featured": true,
+    "details": [
+      {
+        "label": "Pretraining data:",
+        "text": "Long-document data for ERNIE 5.5 Flash Base (33.5T tokens, 128K context)."
+      },
+      {
+        "label": "Knowledge work agent:",
+        "text": "Agentic training for multi-step document, spreadsheet, and slide deliverables in ERNIE 5.5 Flash Preview."
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Pretraining · Natural long documents",
+        "image": "assets/experience/ernie/long-doc.png",
+        "imageAlt": "ERNIE 5.5 Flash Base release notes, long-document data bullet with the natural long-document clause highlighted",
+        "text": "I built the natural long-document part of the long-context pretraining corpus:",
+        "quote": "经长程依赖筛选、基于 embedding 的去重、LLM 质量打分与规则清洗得到的天然长文档",
+        "link": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-base/",
+        "linkLabel": "ERNIE 5.5 Flash Base"
+      },
+      {
+        "title": "Knowledge work agent",
+        "image": "assets/experience/ernie/knowledge-work.jpg",
+        "imageAlt": "Knowledge work section of the ERNIE 5.5 Flash Preview release article, with a generated research report",
+        "text": "Agentic training on 300K workspaces and 10M reference files covering 40+ file types, from personal workspaces to enterprise knowledge bases.",
+        "link": "https://mp.weixin.qq.com/s/Qj_UBDV9wiFXU8Mm8OhVTQ",
+        "linkLabel": "ERNIE 5.5 Flash Preview release"
+      }
+    ]
+  },
+  {
     "organization": "Kuaishou Kling AI",
     "logo": "assets/experience/kling.jpg",
     "period": "2025.12 — 2026.03",

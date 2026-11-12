@@ -349,6 +349,11 @@
     line-height: 1.35;
 }
 
+.publication-author-tag.is-cofirst {
+    border-color: rgba(88, 96, 155, 0.35);
+    background: var(--theme-color-surface-strong);
+}
+
 .publication-author-tag.is-citation {
     border-color: #e6def2;
     background: rgb(88 96 155 / 8%);

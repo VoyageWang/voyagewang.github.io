@@ -8,3 +8,24 @@ strong{
     font-family: 'Sigmar One', serif;
     /*margin-top: 1rem;*/
 }
+
+.content-shell > section,
+.content-shell > .academic-section {
+    margin-top: 2.25rem;
+}
+
+.content-shell > section:first-child { margin-top: 0; }
+
+.content-shell .card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.7rem;
+}
+
+.content-shell .card-title::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--theme-color-pale), transparent);
+}

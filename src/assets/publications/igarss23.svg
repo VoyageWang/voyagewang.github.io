@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef0ff"/><stop offset="1" stop-color="#dfe3f3"/></linearGradient></defs>
+  <rect width="480" height="320" fill="url(#g)"/>
+  <g fill="none" stroke="#aeb5d5" stroke-width="1.5" opacity="0.7"><path d="M300 120c30-40 60 10 90-30s40-40 50-50"/><path d="M300 130c30-40 60 10 90-30s40-40 50-50" opacity=".6"/><path d="M40 250h400M40 270h300"/></g>
+  <text x="40" y="150" font-family="Georgia, serif" font-size="40" font-style="italic" font-weight="700" fill="#58609b">IGARSS 2023</text>
+  <text x="40" y="190" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7299">Transformer coastline detection · Sentinel-2</text>
+</svg>

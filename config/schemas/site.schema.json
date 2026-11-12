@@ -87,7 +87,12 @@
       "type": "object", "additionalProperties": false, "required": ["organization", "logo", "period", "location", "role", "details"],
       "properties": {
         "organization": { "$ref": "#/$defs/text" }, "logo": { "$ref": "#/$defs/asset" }, "period": { "$ref": "#/$defs/text" }, "location": { "$ref": "#/$defs/text" }, "role": { "$ref": "#/$defs/text" },
-        "details": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["label", "text"], "properties": { "label": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" } } } }
+        "details": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["label", "text"], "properties": { "label": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" } } } },
+        "featured": { "type": "boolean", "description": "Give this entry a wider, emphasized card." },
+        "highlights": { "type": "array", "items": {
+          "type": "object", "additionalProperties": false, "required": ["title", "text", "image", "link", "linkLabel"],
+          "properties": { "title": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" }, "quote": { "$ref": "#/$defs/text" }, "image": { "$ref": "#/$defs/asset" }, "imageAlt": { "$ref": "#/$defs/text" }, "link": { "$ref": "#/$defs/link" }, "linkLabel": { "$ref": "#/$defs/text" } }
+        } }
       }
     } },
     "projects": { "type": "array", "items": {
