@@ -98,3 +98,18 @@
 }
 
 .intro-text em { font-synthesis: style; }
+
+/* Intro card, same look as the featured Experience card. */
+.about .intro-text {
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--theme-color-pale);
+    border-radius: 10px;
+    background:
+        radial-gradient(circle at 2rem 1.8rem, color-mix(in srgb, var(--theme-color) 10%, transparent) 0, transparent 9rem),
+        #fff;
+    box-shadow: 0 8px 28px rgba(88, 96, 155, 0.1);
+}
+
+@media (max-width: 700px) {
+    .about .intro-text { padding: 0.95rem 1rem; text-align: left; }
+}
