@@ -33,7 +33,8 @@
   "photos": [
     {
       "image": "assets/life/hills.jpg",
-      "alt": "Yuji standing on a green hillside under a wide cloudy sky",
+      "alt": "Yuji standing on a green hillside at Lund University under a wide cloudy sky",
+      "caption": "Lund University, Sweden",
       "wide": true
     },
     {
@@ -43,7 +44,8 @@
     },
     {
       "image": "assets/life/city-night.jpg",
-      "alt": "Yuji on a neon-lit city street at night"
+      "alt": "Yuji at night outside the public entrance of a Hong Kong racecourse",
+      "caption": "Racecourse, Hong Kong"
     },
     {
       "image": "assets/life/eccv-posters.jpg",
