@@ -11,7 +11,7 @@
 .life-wechat button svg { width: 13px; height: 13px; }
 
 /* One wide landscape on top, portraits below in a row. */
-.life-gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .6rem; }
+.life-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; }
 .life-photo { position: relative; margin: 0; overflow: hidden; border-radius: 10px; background: #eef0f6; aspect-ratio: 3 / 4; }
 .life-photo.is-wide { grid-column: 1 / -1; aspect-ratio: 16 / 8; }
 .life-photo img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
