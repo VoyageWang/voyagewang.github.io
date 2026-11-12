@@ -30,10 +30,10 @@ export default function About() {
           })}
           {paragraphIndex < about.paragraphs.length - 1 && <><br /><br /></>}
         </React.Fragment>)}
-        {about.quote && <InfoCallout icon={Quote} footer={about.quote.author} variant="quote">
-          {about.quote.text}
-        </InfoCallout>}
       </div>
+      {about.quote && <InfoCallout icon={Quote} footer={about.quote.author} variant="quote">
+        {about.quote.text}
+      </InfoCallout>}
     </section>
   );
 }

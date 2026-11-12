@@ -67,5 +67,9 @@
         "italic": true
       }
     ]
-  ]
+  ],
+  "quote": {
+    "text": "In the depths of winter, I finally learned that within me there lay an invincible summer.",
+    "author": "Albert Camus, Return to Tipasa"
+  }
 }
