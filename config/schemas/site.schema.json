@@ -111,6 +111,13 @@
         "properties": { "institution": { "$ref": "#/$defs/text" }, "degree": { "type": "string" }, "field": { "type": "string" }, "period": { "type": "string" }, "location": { "type": "string" }, "description": { "type": "string" }, "logo": { "$ref": "#/$defs/asset" } }
       } } }
     },
+    "teaching": {
+      "type": "object", "additionalProperties": false, "required": ["enabled", "items"],
+      "properties": { "enabled": { "type": "boolean" }, "items": { "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["role", "course"],
+        "properties": { "role": { "$ref": "#/$defs/text" }, "course": { "$ref": "#/$defs/text" }, "nativeCourse": { "$ref": "#/$defs/text" }, "term": { "$ref": "#/$defs/text" } }
+      } } }
+    },
     "awards": {
       "type": "object", "additionalProperties": false, "required": ["enabled", "items"],
       "properties": { "enabled": { "type": "boolean" }, "items": { "type": "array", "items": {

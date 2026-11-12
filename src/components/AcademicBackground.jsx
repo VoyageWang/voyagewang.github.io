@@ -1,5 +1,5 @@
-import { education, awards, isSectionVisible } from "../siteConfig";
-import { Landmark, Trophy } from "lucide-react";
+import { education, awards, teaching, isSectionVisible } from "../siteConfig";
+import { Landmark, Presentation, Trophy } from "lucide-react";
 import "../css/AcademicBackground.css";
 
 export default function AcademicBackground() {
@@ -16,6 +16,19 @@ export default function AcademicBackground() {
             {item.description && <p className="academic-description">{item.description}</p>}
           </div>
           {item.location && <span className="academic-location">{item.location}</span>}
+        </li>)}
+      </ul>
+    </section>}
+    {isSectionVisible(teaching) && <section className="academic-section" id="teaching" aria-labelledby="teaching-heading">
+      <h2 className="card-title" id="teaching-heading">Teaching</h2>
+      <ul className="academic-list awards-list">
+        {teaching.items.map((item, index) => <li className="academic-item" key={`${item.course}-${index}`}>
+          <span className="honor-emblem" aria-hidden="true"><Presentation /></span>
+          <div className="academic-details">
+            <div className="academic-item-heading"><h3>{item.course}{item.nativeCourse && <span className="teaching-native" lang="zh-CN">（{item.nativeCourse}）</span>}</h3></div>
+            <p className="academic-subtitle">{item.role}</p>
+          </div>
+          {item.term && <span className="award-year">{item.term}</span>}
         </li>)}
       </ul>
     </section>}

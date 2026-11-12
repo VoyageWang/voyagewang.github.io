@@ -7,6 +7,7 @@ import heroData from "../config/hero.json";
 import aboutData from "../config/about.json";
 import educationData from "../config/education.json";
 import awardsData from "../config/awards.json";
+import teachingData from "../config/teaching.json";
 import lifeData from "../config/life.json";
 import themeSource from "../config/theme.jsonc?raw";
 import previewItems from "../config/publication-previews.json";
@@ -56,6 +57,7 @@ export const education = {
   items: educationData.items.map((item) => ({ ...item, logo: resolveAsset(item.logo) })),
 };
 export const awards = awardsData;
+export const teaching = teachingData;
 export const life = {
   ...lifeData,
   photos: lifeData.photos.map((photo) => ({ ...photo, image: resolveAsset(photo.image) })),

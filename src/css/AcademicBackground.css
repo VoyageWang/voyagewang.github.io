@@ -26,6 +26,7 @@
 .awards-list .academic-item-heading h3 { font-size: .9rem; font-weight: 500; line-height: 1.55; }
 .award-year { padding-top: .15rem; font-size: .74rem; color: #797d88; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .awards-list .academic-subtitle { font-size: .8rem; }
+.teaching-native { color: #797d88; font-weight: 400; }
 @media (max-width: 720px) {
   .education-path .academic-item { grid-template-columns: 34px minmax(0,1fr); gap: .65rem; padding: .75rem; }
   .school-emblem.has-logo { width: 34px; height: 34px; }
