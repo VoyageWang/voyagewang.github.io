@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineCheck, AiOutlineCopy, AiOutlineFileText } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
+import { ChevronDown } from "lucide-react";
 import "../css/Publications.css";
 import { publications } from "../siteConfig";
 import PublicationPreview from "./PublicationPreview";
@@ -19,7 +20,10 @@ function copyText(text) {
   return Promise.resolve();
 }
 
+const foldedCount = publications.filter((paper) => paper.folded).length;
+
 export default function Publications() {
+  const [showAll, setShowAll] = useState(() => publications.some((paper) => paper.folded && `#${paper.id}` === window.location.hash));
   const [copiedPaper, setCopiedPaper] = useState("");
   const [bursts, setBursts] = useState([]);
   const [citationMap, setCitationMap] = useState({});
@@ -53,8 +57,9 @@ export default function Publications() {
         ))}
       </div>
       <div className="card-title">Publications</div>
+      <p className="publications-note">* Equal contribution{foldedCount > 0 && !showAll ? "; papers where I am a co-author are folded below" : ""}.</p>
       <div className="publications-list">
-        {publications.map((paper) => {
+        {publications.filter((paper) => showAll || !paper.folded).map((paper) => {
           const citationCount = resolveCitationCount(paper.title, citationMap);
           return (
           <article className="publication-card" id={paper.id} key={paper.id}>
@@ -93,6 +98,9 @@ export default function Publications() {
           );
         })}
       </div>
+      {foldedCount > 0 && <button className={`publications-toggle${showAll ? " is-open" : ""}`} type="button" aria-expanded={showAll} onClick={() => setShowAll(!showAll)}>
+        {showAll ? "Show first-author papers only" : `Show all publications (+${foldedCount})`}<ChevronDown aria-hidden="true" />
+      </button>}
       {abstractPaper && <PublicationPreview paper={abstractPaper} papers={publications} onChange={setAbstractPaper} onClose={() => setAbstractPaper(null)} onCopy={copyCitation} copied={copiedPaper} />}
     </section>
   );

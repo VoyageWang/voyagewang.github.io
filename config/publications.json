@@ -129,90 +129,6 @@
     }
   },
   {
-    "id": "safe-pruner",
-    "image": "assets/publications/safe-pruner.png",
-    "title": "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation",
-    "abstract": "Real-time inference of vision-language-action (VLA) models is essential for robotic control. While visual token pruning has shown strong potential for accelerating inference, most existing methods mainly base pruning decisions on shallow-layer cues and risk discarding visual information required by deep layers. To address this issue, we propose SAFE-Pruner, a plug-and-play pruning framework that incorporates attention cues of future layers into pruning decisions. Specifically, we identify semantic attention consistency, the tendency that VLA models concentrate their attention probability mass on the same semantic entity across control timesteps. Based on this observation, we design a forward-looking strategy to forecast the token saliency in deep layers, which prevents the premature removal of critical tokens and leads to more stable acceleration. We further introduce a reference timestep refresh strategy that triggers updates upon attention shifts, thereby improving forecasting accuracy and pruning reliability. Extensive experiments across diverse evaluation settings demonstrate that our method achieves up to 1.89x speedup with a minimal degradation in success rate of less than 1.5%, while outperforming state-of-the-art methods by up to 1.9%.",
-    "authors": [
-      {
-        "text": "Shilin Ma, Chubin Zhang, Changyuan Wang, "
-      },
-      {
-        "text": "Yuji Wang",
-        "strong": true
-      },
-      {
-        "text": ", Yue Wu, Zixuan Wang, Jingqi Tian, Zheng Zhu, Yansong Tang"
-      }
-    ],
-    "venue": "ECCV '26",
-    "venueType": "conference",
-    "tags": [
-      "Vision-Language-Action",
-      "Token Pruning",
-      "Efficient Inference"
-    ],
-    "link": "https://arxiv.org/abs/2605.29662",
-    "pdfUrl": "https://arxiv.org/pdf/2605.29662",
-    "citation": "S. Ma, C. Zhang, C. Wang, Y. Wang, Y. Wu, Z. Wang, J. Tian, Z. Zhu, and Y. Tang, “SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026."
-  },
-  {
-    "id": "taihri",
-    "image": "assets/publications/taihri.jpg",
-    "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
-    "abstract": "Accurate 3D human keypoints localization is a critical technology enabling robots to achieve natural and safe physical interaction with users. Conventional 3D human keypoints estimation methods primarily focus on the whole-body reconstruction quality relative to the root joint. However, in practical human-robot interaction (HRI) scenarios, robots are more concerned with the precise metric-scale spatial localization of task-relevant body parts under the egocentric camera 3D coordinate. We propose TAIHRI, the first Vision-Language Model (VLM) tailored for close-range HRI perception, capable of understanding users' motion commands and directing the robot's attention to the most task-relevant keypoints. By quantizing 3D keypoints into a finite interaction space, TAIHRI precisely localize the 3D spatial coordinates of critical body parts by 2D keypoint reasoning via next token prediction, and seamlessly adapt to downstream tasks such as natural language control or global space human mesh recovery. Experiments on egocentric interaction benchmarks demonstrate that TAIHRI achieves superior estimation accuracy for task-critical body parts. We believe TAIHRI opens new research avenues in the field of embodied human-robot interaction. Code is available at: https://github.com/Tencent/TAIHRI.",
-    "authors": [
-      {
-        "text": "Ao Li, Yonggen Ling, Yiyang Lin, "
-      },
-      {
-        "text": "Yuji Wang",
-        "strong": true
-      },
-      {
-        "text": ", Yong Deng, Yansong Tang"
-      }
-    ],
-    "venue": "ECCV '26",
-    "venueType": "conference",
-    "tags": [
-      "Human-Robot Interaction",
-      "3D Keypoints",
-      "Vision-Language Model"
-    ],
-    "link": "https://arxiv.org/abs/2604.08921",
-    "pdfUrl": "https://arxiv.org/pdf/2604.08921",
-    "code": "https://github.com/Tencent/TAIHRI",
-    "citation": "A. Li, Y. Ling, Y. Lin, Y. Wang, Y. Deng, and Y. Tang, “TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026."
-  },
-  {
-    "id": "ddavs",
-    "image": "assets/publications/ddavs.jpg",
-    "title": "DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation",
-    "abstract": "Audio-Visual Segmentation (AVS) aims to localize sound-producing objects at the pixel level by integrating auditory and visual cues. However, existing methods often struggle with multi-source entanglement and audio-visual misalignment, leading to a dominance bias toward acoustically or visually salient objects (i.e., louder or larger ones) at the expense of subtler or co-occurring sources. To address these challenges, we propose DDAVS: Delayed Bidirectional Alignment via Disentangled Audio Semantics for Audio-Visual Segmentation. To mitigate multi-source entanglement, DDAVS employs learnable queries to extract audio semantics and anchor them within a structured semantic space derived from an audio prototype memory bank. This process is further optimized through contrastive learning to enhance discriminability and robustness. To alleviate audio-visual misalignment, DDAVS introduces dual cross attention with delayed modality interaction, improving the robustness of multimodal alignment. Extensive experiments on the AVS-Objects and VPO benchmarks demonstrate that DDAVS achieves state-of-the-art performance across single-source, multi-source, and multi-class multi-instance scenarios. These results validate the effectiveness and generalization ability of our framework under challenging real-world audio-visual segmentation conditions. Project page: https://trilarflagz.github.io/DDAVS-page/",
-    "authors": [
-      {
-        "text": "Jingqi Tian, Yiheng Du, Haoji Zhang, "
-      },
-      {
-        "text": "Yuji Wang",
-        "strong": true
-      },
-      {
-        "text": ", Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang"
-      }
-    ],
-    "venue": "ECCV '26",
-    "venueType": "conference",
-    "tags": [
-      "Audio-Visual Segmentation",
-      "Multimodal Alignment"
-    ],
-    "link": "https://arxiv.org/abs/2512.20117",
-    "pdfUrl": "https://arxiv.org/pdf/2512.20117",
-    "citation": "J. Tian, Y. Du, H. Zhang, Y. Wang, I. N. Lee, X. Bai, T. Zhu, J. Niu, and Y. Tang, “DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026."
-  },
-  {
     "id": "vg-refiner",
     "image": "assets/publications/vg-refiner.png",
     "title": "VG-Refiner: Towards Tool-Refined Referring Grounded Reasoning via Agentic Reinforcement Learning",
@@ -299,34 +215,6 @@
     }
   },
   {
-    "id": "dmrnet",
-    "image": "assets/publications/dmrnet.jpg",
-    "title": "Robust Multimodal Learning via Representation Decoupling",
-    "abstract": "Multimodal learning robust to missing modality has attracted increasing attention due to its practicality. Existing methods tend to address it by learning a common subspace representation for different modality combinations. However, we reveal that they are sub-optimal due to their implicit constraint on intra-class representation. Specifically, the sample with different modalities within the same class will be forced to learn representations in the same direction. This hinders the model from capturing modality-specific information, resulting in insufficient learning. To this end, we propose a novel Decoupled Multimodal Representation Network (DMRNet) to assist robust multimodal learning. Specifically, DMRNet models the input from different modality combinations as a probabilistic distribution instead of a fixed point in the latent space, and samples embeddings from the distribution for the prediction module to calculate the task loss. As a result, the direction constraint from the loss minimization is blocked by the sampled representation. This relaxes the constraint on the inference representation and enables the model to capture the specific information for different modality combinations. Furthermore, we introduce a hard combination regularizer to prevent DMRNet from unbalanced training by guiding it to pay more attention to hard modality combinations. Finally, extensive experiments on multimodal classification and segmentation tasks demonstrate that the proposed DMRNet outperforms the state-of-the-art significantly.",
-    "authors": [
-      {
-        "text": "Shicai Wei, Yang Luo, "
-      },
-      {
-        "text": "Yuji Wang",
-        "strong": true
-      },
-      {
-        "text": ", Chunbo Luo"
-      }
-    ],
-    "venue": "ECCV '24",
-    "venueType": "conference",
-    "tags": [
-      "Multimodal Learning",
-      "Missing Modality",
-      "Representation Learning"
-    ],
-    "link": "https://arxiv.org/pdf/2407.04458",
-    "code": "https://github.com/shicaiwei123/ECCV2024-DMRNet",
-    "citation": "S. Wei, Y. Luo, Y. Wang, and C. Luo, “Robust Multimodal Learning via Representation Decoupling,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2024."
-  },
-  {
     "id": "igarss-2024",
     "image": "assets/publications/igarss24.svg",
     "title": "Convolution Meets Transformer: Efficient Hybrid Transformer for Semantic Segmentation with Very High Resolution Imagery",
@@ -369,5 +257,121 @@
     ],
     "link": "https://doi.org/10.1109/IGARSS52108.2023.10282303",
     "citation": "Y. Wang, R. Zhao, and Z. Sun, “Efficient Remote Sensing Transformer for Coastline Detection with Sentinel-2 Satellite Imagery,” in Proc. IEEE Int. Geosci. Remote Sens. Symp. (IGARSS), 2023, pp. 5439–5442."
+  },
+  {
+    "id": "safe-pruner",
+    "image": "assets/publications/safe-pruner.png",
+    "title": "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation",
+    "abstract": "Real-time inference of vision-language-action (VLA) models is essential for robotic control. While visual token pruning has shown strong potential for accelerating inference, most existing methods mainly base pruning decisions on shallow-layer cues and risk discarding visual information required by deep layers. To address this issue, we propose SAFE-Pruner, a plug-and-play pruning framework that incorporates attention cues of future layers into pruning decisions. Specifically, we identify semantic attention consistency, the tendency that VLA models concentrate their attention probability mass on the same semantic entity across control timesteps. Based on this observation, we design a forward-looking strategy to forecast the token saliency in deep layers, which prevents the premature removal of critical tokens and leads to more stable acceleration. We further introduce a reference timestep refresh strategy that triggers updates upon attention shifts, thereby improving forecasting accuracy and pruning reliability. Extensive experiments across diverse evaluation settings demonstrate that our method achieves up to 1.89x speedup with a minimal degradation in success rate of less than 1.5%, while outperforming state-of-the-art methods by up to 1.9%.",
+    "authors": [
+      {
+        "text": "Shilin Ma, Chubin Zhang, Changyuan Wang, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Yue Wu, Zixuan Wang, Jingqi Tian, Zheng Zhu, Yansong Tang"
+      }
+    ],
+    "venue": "ECCV '26",
+    "venueType": "conference",
+    "tags": [
+      "Vision-Language-Action",
+      "Token Pruning",
+      "Efficient Inference"
+    ],
+    "link": "https://arxiv.org/abs/2605.29662",
+    "pdfUrl": "https://arxiv.org/pdf/2605.29662",
+    "citation": "S. Ma, C. Zhang, C. Wang, Y. Wang, Y. Wu, Z. Wang, J. Tian, Z. Zhu, and Y. Tang, “SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026.",
+    "folded": true
+  },
+  {
+    "id": "taihri",
+    "image": "assets/publications/taihri.jpg",
+    "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
+    "abstract": "Accurate 3D human keypoints localization is a critical technology enabling robots to achieve natural and safe physical interaction with users. Conventional 3D human keypoints estimation methods primarily focus on the whole-body reconstruction quality relative to the root joint. However, in practical human-robot interaction (HRI) scenarios, robots are more concerned with the precise metric-scale spatial localization of task-relevant body parts under the egocentric camera 3D coordinate. We propose TAIHRI, the first Vision-Language Model (VLM) tailored for close-range HRI perception, capable of understanding users' motion commands and directing the robot's attention to the most task-relevant keypoints. By quantizing 3D keypoints into a finite interaction space, TAIHRI precisely localize the 3D spatial coordinates of critical body parts by 2D keypoint reasoning via next token prediction, and seamlessly adapt to downstream tasks such as natural language control or global space human mesh recovery. Experiments on egocentric interaction benchmarks demonstrate that TAIHRI achieves superior estimation accuracy for task-critical body parts. We believe TAIHRI opens new research avenues in the field of embodied human-robot interaction. Code is available at: https://github.com/Tencent/TAIHRI.",
+    "authors": [
+      {
+        "text": "Ao Li, Yonggen Ling, Yiyang Lin, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Yong Deng, Yansong Tang"
+      }
+    ],
+    "venue": "ECCV '26",
+    "venueType": "conference",
+    "tags": [
+      "Human-Robot Interaction",
+      "3D Keypoints",
+      "Vision-Language Model"
+    ],
+    "link": "https://arxiv.org/abs/2604.08921",
+    "pdfUrl": "https://arxiv.org/pdf/2604.08921",
+    "code": "https://github.com/Tencent/TAIHRI",
+    "citation": "A. Li, Y. Ling, Y. Lin, Y. Wang, Y. Deng, and Y. Tang, “TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026.",
+    "folded": true
+  },
+  {
+    "id": "ddavs",
+    "image": "assets/publications/ddavs.jpg",
+    "title": "DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation",
+    "abstract": "Audio-Visual Segmentation (AVS) aims to localize sound-producing objects at the pixel level by integrating auditory and visual cues. However, existing methods often struggle with multi-source entanglement and audio-visual misalignment, leading to a dominance bias toward acoustically or visually salient objects (i.e., louder or larger ones) at the expense of subtler or co-occurring sources. To address these challenges, we propose DDAVS: Delayed Bidirectional Alignment via Disentangled Audio Semantics for Audio-Visual Segmentation. To mitigate multi-source entanglement, DDAVS employs learnable queries to extract audio semantics and anchor them within a structured semantic space derived from an audio prototype memory bank. This process is further optimized through contrastive learning to enhance discriminability and robustness. To alleviate audio-visual misalignment, DDAVS introduces dual cross attention with delayed modality interaction, improving the robustness of multimodal alignment. Extensive experiments on the AVS-Objects and VPO benchmarks demonstrate that DDAVS achieves state-of-the-art performance across single-source, multi-source, and multi-class multi-instance scenarios. These results validate the effectiveness and generalization ability of our framework under challenging real-world audio-visual segmentation conditions. Project page: https://trilarflagz.github.io/DDAVS-page/",
+    "authors": [
+      {
+        "text": "Jingqi Tian, Yiheng Du, Haoji Zhang, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, Yansong Tang"
+      }
+    ],
+    "venue": "ECCV '26",
+    "venueType": "conference",
+    "tags": [
+      "Audio-Visual Segmentation",
+      "Multimodal Alignment"
+    ],
+    "link": "https://arxiv.org/abs/2512.20117",
+    "pdfUrl": "https://arxiv.org/pdf/2512.20117",
+    "citation": "J. Tian, Y. Du, H. Zhang, Y. Wang, I. N. Lee, X. Bai, T. Zhu, J. Niu, and Y. Tang, “DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2026.",
+    "folded": true
+  },
+  {
+    "id": "dmrnet",
+    "image": "assets/publications/dmrnet.jpg",
+    "title": "Robust Multimodal Learning via Representation Decoupling",
+    "abstract": "Multimodal learning robust to missing modality has attracted increasing attention due to its practicality. Existing methods tend to address it by learning a common subspace representation for different modality combinations. However, we reveal that they are sub-optimal due to their implicit constraint on intra-class representation. Specifically, the sample with different modalities within the same class will be forced to learn representations in the same direction. This hinders the model from capturing modality-specific information, resulting in insufficient learning. To this end, we propose a novel Decoupled Multimodal Representation Network (DMRNet) to assist robust multimodal learning. Specifically, DMRNet models the input from different modality combinations as a probabilistic distribution instead of a fixed point in the latent space, and samples embeddings from the distribution for the prediction module to calculate the task loss. As a result, the direction constraint from the loss minimization is blocked by the sampled representation. This relaxes the constraint on the inference representation and enables the model to capture the specific information for different modality combinations. Furthermore, we introduce a hard combination regularizer to prevent DMRNet from unbalanced training by guiding it to pay more attention to hard modality combinations. Finally, extensive experiments on multimodal classification and segmentation tasks demonstrate that the proposed DMRNet outperforms the state-of-the-art significantly.",
+    "authors": [
+      {
+        "text": "Shicai Wei, Yang Luo, "
+      },
+      {
+        "text": "Yuji Wang",
+        "strong": true
+      },
+      {
+        "text": ", Chunbo Luo"
+      }
+    ],
+    "venue": "ECCV '24",
+    "venueType": "conference",
+    "tags": [
+      "Multimodal Learning",
+      "Missing Modality",
+      "Representation Learning"
+    ],
+    "link": "https://arxiv.org/pdf/2407.04458",
+    "code": "https://github.com/shicaiwei123/ECCV2024-DMRNet",
+    "citation": "S. Wei, Y. Luo, Y. Wang, and C. Luo, “Robust Multimodal Learning via Representation Decoupling,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2024.",
+    "folded": true
   }
 ]

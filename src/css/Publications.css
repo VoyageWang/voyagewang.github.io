@@ -549,3 +549,47 @@
         padding-bottom: 0.7rem;
     }
 }
+
+/* First-author papers stay visible; co-authored ones fold behind one toggle. */
+.publications-note {
+    margin: -0.2rem 0 0.6rem;
+    color: #797d88;
+    font-size: 0.78rem;
+    text-align: left;
+}
+
+.publications-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0.7rem auto 0;
+    padding: 0.4rem 0.95rem;
+    border: 1px solid #d8dceb;
+    border-radius: 999px;
+    color: var(--theme-text-color);
+    background: #fff;
+    font: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.publications-toggle:hover {
+    border-color: var(--theme-color-border);
+    background: var(--theme-color-surface-soft);
+}
+
+.publications-toggle:focus-visible {
+    outline: 2px solid var(--theme-color-soft);
+    outline-offset: 3px;
+}
+
+.publications-toggle svg {
+    width: 15px;
+    height: 15px;
+    transition: transform 0.2s ease;
+}
+
+.publications-toggle.is-open svg {
+    transform: rotate(180deg);
+}

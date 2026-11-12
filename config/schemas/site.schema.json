@@ -80,6 +80,7 @@
         "venueType": { "enum": ["conference", "journal", "preprint", "workshop"] }, "ccf": { "$ref": "#/$defs/text" },
         "tags": { "type": "array", "items": { "$ref": "#/$defs/text" } },
         "link": { "$ref": "#/$defs/link" }, "pdfUrl": { "type": "string", "pattern": "^https?://", "description": "Optional CORS-enabled remote PDF URL for the paper reader." }, "code": { "$ref": "#/$defs/link" }, "citation": { "$ref": "#/$defs/text" },
+        "folded": { "type": "boolean", "description": "Hide behind the \"Show all publications\" toggle." },
         "authorTag": { "type": "object", "additionalProperties": false, "required": ["label", "type"], "properties": { "label": { "$ref": "#/$defs/text" }, "type": { "$ref": "#/$defs/text" } } }
       }
     } },
@@ -107,7 +108,7 @@
       "type": "object", "additionalProperties": false, "required": ["enabled", "items"],
       "properties": { "enabled": { "type": "boolean" }, "items": { "type": "array", "items": {
         "type": "object", "additionalProperties": false, "required": ["institution"],
-        "properties": { "institution": { "$ref": "#/$defs/text" }, "degree": { "type": "string" }, "field": { "type": "string" }, "period": { "type": "string" }, "location": { "type": "string" }, "description": { "type": "string" } }
+        "properties": { "institution": { "$ref": "#/$defs/text" }, "degree": { "type": "string" }, "field": { "type": "string" }, "period": { "type": "string" }, "location": { "type": "string" }, "description": { "type": "string" }, "logo": { "$ref": "#/$defs/asset" } }
       } } }
     },
     "awards": {

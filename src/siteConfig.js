@@ -50,7 +50,10 @@ export const hero = {
 
 export const about = aboutData;
 
-export const education = educationData;
+export const education = {
+  ...educationData,
+  items: educationData.items.map((item) => ({ ...item, logo: resolveAsset(item.logo) })),
+};
 export const awards = awardsData;
 export function isSectionVisible(section) {
   return section.enabled === true && Array.isArray(section.items) && section.items.length > 0;

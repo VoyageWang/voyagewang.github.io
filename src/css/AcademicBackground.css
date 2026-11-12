@@ -8,9 +8,11 @@
 
 /* School emblem and a two-line record; no parallel cards or oversized dates. */
 .education-path { display: grid; gap: .55rem; }
-.education-path .academic-item { display: grid; grid-template-columns: 28px minmax(0,1fr); gap: 0 .75rem; align-items: start; padding: .8rem .9rem; border: 1px solid #e7e8f0; border-radius: 8px; background: #fff; }
+.education-path .academic-item { display: grid; grid-template-columns: 40px minmax(0,1fr); gap: 0 .85rem; align-items: start; padding: .8rem .9rem; border: 1px solid #e7e8f0; border-radius: 8px; background: #fff; }
 .school-emblem { display: grid; place-items: center; width: 28px; height: 28px; color: var(--theme-color-soft); }
 .school-emblem svg { width: 21px; height: 21px; stroke-width: 1.35; }
+.school-emblem.has-logo { width: 40px; height: 40px; }
+.school-emblem img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; }
 .education-meta { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .2rem 1rem; margin-top: .2rem; }
 .education-degree { color: var(--theme-text-color); font-size: .85rem; line-height: 1.5; }
 .education-period { color: #797d88; font-size: .74rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -25,7 +27,8 @@
 .award-year { padding-top: .15rem; font-size: .74rem; color: #797d88; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .awards-list .academic-subtitle { font-size: .8rem; }
 @media (max-width: 720px) {
-  .education-path .academic-item { grid-template-columns: 24px minmax(0,1fr); gap: .6rem; padding: .75rem; }
+  .education-path .academic-item { grid-template-columns: 34px minmax(0,1fr); gap: .65rem; padding: .75rem; }
+  .school-emblem.has-logo { width: 34px; height: 34px; }
   .school-emblem { width: 24px; height: 26px; }
   .school-emblem svg { width: 20px; height: 20px; }
   .education-meta { gap: .2rem .6rem; }

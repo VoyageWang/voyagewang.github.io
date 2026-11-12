@@ -8,7 +8,7 @@ export default function AcademicBackground() {
       <h2 className="card-title" id="education-heading">Education</h2>
       <ul className="academic-list education-path">
         {education.items.map((item, index) => <li className="academic-item" key={`${item.institution}-${index}`}>
-          <span className="school-emblem" aria-hidden="true"><Landmark /></span>
+          <span className={`school-emblem${item.logo ? " has-logo" : ""}`} aria-hidden="true">{item.logo ? <img src={item.logo} alt="" /> : <Landmark />}</span>
           <div className="academic-details">
             <div className="academic-item-heading"><h3>{item.institution}</h3></div>
             <div className="education-meta">{item.degree && <span className="education-degree">{item.degree}</span>}{item.period && <span className="education-period">{item.period}</span>}</div>
